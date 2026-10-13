@@ -19,22 +19,36 @@
 
 ## 👋 About me
 
-```js
-const digvijay = {
-  role:       "Front-end Developer",
-  focus:      ["Responsive UI", "Civic tech", "Browser tools", "Music discovery"],
-  stack:      ["React", "TypeScript", "JavaScript", "HTML", "CSS"],
-  recently:   "Built Terra Trust for Smart India Hackathon 2026",
-  approach:   "Clear interfaces, zero-friction setup, works on any screen",
-};
-```
-
-- 🏛️ Building a **land-records & citizen-services prototype** for **SIH 2026**
-- 🎧 Shipped a **browser music player** with queues, favorites and 0.5×–4× speed
-- 🧮 Made a **scientific calculator** with memory, history and keyboard support
-- 🌱 Exploring better TypeScript patterns and accessible UI design
-
----
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <p>
+        I'm a <b>front-end developer</b> who enjoys turning ideas into clear, responsive products —
+        from civic-tech prototypes to small browser tools people actually use.
+      </p>
+      <p>
+        I care about <b>clean interfaces</b>, <b>zero-friction setup</b> and apps that
+        <b>work on any screen</b>. Most of my projects run straight in the browser —
+        no installs, no sign-ups.
+      </p>
+      <p>
+        🏛️ Built <b>Terra Trust</b> for Smart India Hackathon 2026<br/>
+        🎧 Shipped <b>Pulse Player</b>, a browser music player<br/>
+        🧮 Made <b>Calcu</b>, a scientific calculator with history & memory
+      </p>
+    </td>
+    <td width="40%" valign="top">
+      <h4>⚡ Quick facts</h4>
+      <table>
+        <tr><td>💼 <b>Role</b></td><td>Front-end Developer</td></tr>
+        <tr><td>🧰 <b>Stack</b></td><td>React · TypeScript · JS</td></tr>
+        <tr><td>🎯 <b>Focus</b></td><td>Responsive UI, civic tech</td></tr>
+        <tr><td>🌱 <b>Learning</b></td><td>TypeScript patterns, a11y</td></tr>
+        <tr><td>🤝 <b>Open to</b></td><td>Collabs & front-end roles</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
 
 ## 🚀 Featured projects
 
