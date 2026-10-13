@@ -209,6 +209,7 @@ h2 { margin-bottom: 0; font-size: clamp(38px, 4.4vw, 58px); font-weight: 600; le
 .stack-star { color: #94b957; font-size: 15px; }
 .stack-list > div { min-height: 43px; display: flex; align-items: center; gap: 11px; border-bottom: 1px solid var(--line); color: var(--ink); font-size: 11px; font-weight: 600; }
 .stack-symbol { width: 21px; height: 21px; display: grid; place-items: center; border-radius: 5px; background: #edf2e4; color: #62794c; font-family: "Space Grotesk", sans-serif; font-size: 10px; font-weight: 700; }
+.ts-symbol { background: #e5edf7; color: #3f6c9c; font-size: 8px; }
 .css-symbol { background: #e7eef5; color: #587a98; }
 .js-symbol { background: #f6efcf; color: #887230; font-size: 7px; }
 .react-symbol { background: #e2f1f1; color: #4f8990; }
