@@ -9,6 +9,30 @@
   </a>
 </p>
 
+<table align="center">
+  <tr>
+    <td width="60%" valign="middle">
+      <h1>Hi there, I'm Digvijay 👋</h1>
+      <p>
+        <b>Front-end developer</b> building clean, responsive web experiences —
+        from civic-tech prototypes to browser tools people actually use.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Status-Open%20to%20work-22c55e?style=flat-square" alt="Open to work" />
+        <img src="https://img.shields.io/badge/Location-India-0ea5e9?style=flat-square" alt="Location" />
+        <img src="https://img.shields.io/badge/Focus-Front--end-7c3aed?style=flat-square" alt="Focus" />
+      </p>
+      <p>
+        🔭 Currently polishing <b>Terra Trust</b> for SIH 2026<br/>
+        📚 Learning advanced TypeScript
+      </p>
+    </td>
+    <td width="40%" align="center" valign="middle">
+      <img src="./assets/character.svg" alt="Coder chibi" width="230" />
+    </td>
+  </tr>
+</table>
+
 <p align="center">
   <a href="https://digvijay-portfolio-two.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://github.com/digvijay165?tab=repositories"><img src="https://img.shields.io/badge/Projects-Browse-1e3a8a?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
