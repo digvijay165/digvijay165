@@ -1,16 +1,23 @@
-## Hi there 👋
+# Hi, I’m Digvijay 👋
 
-<!--
-**digvijay165/digvijay165** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build practical web experiences—from civic-tech prototypes to useful browser tools. I care about clear interfaces, responsive design, and making complex tasks easier to use.
 
-Here are some ideas to get you started:
+## Featured projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### [Terra Trust](https://github.com/digvijay165/terra-trust)
+An **AI-verified land records and citizen services** front-end prototype created for **Smart India Hackathon 2026**. It demonstrates searchable records, application tracking, document verification, and a bilingual interface. Built with React and JavaScript; currently uses mock data.
+
+### [Calcu](https://github.com/digvijay165/calculator)
+A responsive browser calculator with scientific functions, DEG/RAD modes, memory, calculation history, keyboard support, and light and dark themes. [Try it live](https://calculator-7rgb.onrender.com).
+
+## Tools I use
+
+`React` · `JavaScript` · `HTML` · `CSS`
+
+## Areas I enjoy
+
+- Responsive front-end development
+- Civic technology and citizen-focused services
+- Small, useful browser applications
+
+Thanks for stopping by.
