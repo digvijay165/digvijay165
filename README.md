@@ -5,6 +5,7 @@
 <p>From civic-tech prototypes to browser tools, I enjoy turning ideas into clear, responsive products.</p>
 <p>
   <a href="https://github.com/digvijay165"><img src="https://img.shields.io/badge/GitHub-digvijay165-181717?style=for-the-badge&logo=github" alt="GitHub: digvijay165"></a>
+  <a href="https://digvijay-portfolio-two.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit%20site-6f8c4c?style=for-the-badge&logo=vercel&logoColor=white" alt="Open Digvijay’s portfolio"></a>
   <a href="https://pulse-player-0rdw.onrender.com/"><img src="https://img.shields.io/badge/Live-Pulse%20Player-71852a?style=for-the-badge&logo=musicbrainz&logoColor=white" alt="Open Pulse Player"></a>
   <a href="https://calculator-7rgb.onrender.com/"><img src="https://img.shields.io/badge/Live-Calculator-3569c8?style=for-the-badge&logo=googlecalculator&logoColor=white" alt="Open calculator"></a>
 </p>
@@ -23,6 +24,7 @@
 
 | Project | What it does | Links |
 | --- | --- | --- |
+| **Portfolio** | A responsive home for selected projects and the ideas behind them. | [Live site](https://digvijay-portfolio-two.vercel.app/) · [Source](https://github.com/digvijay165/digvijay165/tree/main/portfolio) |
 | **Terra Trust** | A Smart India Hackathon 2026 front-end prototype exploring searchable land records and citizen services. It currently uses mock data. | [Source](https://github.com/digvijay165/terra-trust) |
 | **Pulse Player** | A browser music player for catalog previews, direct audio links, saved favorites, and queue controls. | [Live app](https://pulse-player-0rdw.onrender.com/) · [Source](https://github.com/digvijay165/pulse-player) |
 | **Calcu** | A responsive scientific calculator with DEG/RAD modes, memory, history, and keyboard support. | [Live app](https://calculator-7rgb.onrender.com/) · [Source](https://github.com/digvijay165/calculator) |
