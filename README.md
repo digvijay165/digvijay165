@@ -50,6 +50,8 @@
   </tr>
 </table>
 
+---
+
 ## 🚀 Featured projects
 
 <table>
@@ -144,7 +146,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=digvijay165&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" width="100%" />
+  <img src="https://ghchart.rshah.org/0ea5e9/digvijay165" alt="Digvijay's contribution chart" width="100%" />
 </p>
 
 ---
