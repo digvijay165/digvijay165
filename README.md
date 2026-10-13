@@ -28,7 +28,7 @@
       </p>
     </td>
     <td width="40%" align="center" valign="middle">
-      <img src="./assets/character.svg" alt="Coder chibi" width="230" />
+      <img src="./character.svg" alt="Coder chibi" width="230" />
     </td>
   </tr>
 </table>
