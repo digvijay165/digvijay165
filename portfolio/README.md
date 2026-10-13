@@ -1,6 +1,6 @@
 # Digvijay — Portfolio
 
-A responsive portfolio site for [@digvijay165](https://github.com/digvijay165), built with HTML, CSS, and TypeScript.
+A responsive, sky-inspired portfolio for [@digvijay165](https://github.com/digvijay165), built with HTML, CSS, and TypeScript. The visual direction uses a full-screen sky, a fine page frame, quiet serif typography, and a compact scroll-led layout while keeping the portfolio content and project links specific to Digvijay.
 
 ## Run locally
 
@@ -16,6 +16,7 @@ pnpm build
 - Responsive layout with accessible navigation and reduced-motion support
 - Project filters for civic technology and browser tools
 - Persistent light/dark theme toggle
+- Animated sky background and scroll-led project, about, and contact sections
 - Public repository and star counts loaded from the GitHub API
 - Strict TypeScript compilation with no API key required
 
