@@ -9,12 +9,13 @@ function getRequiredElement(selector) {
 const themeButton = getRequiredElement("#theme-toggle");
 const announcement = getRequiredElement("#announcement");
 const themeColor = getRequiredElement('meta[name="theme-color"]');
+const heroSection = getRequiredElement("#top");
 function applyTheme(theme) {
     const isDark = theme === "dark";
     root.dataset.theme = theme;
     themeButton.setAttribute("aria-label", isDark ? "Switch to light theme" : "Switch to dark theme");
     themeButton.title = isDark ? "Switch to light theme" : "Switch to dark theme";
-    themeColor.content = isDark ? "#151a17" : "#f6f5f0";
+    themeColor.content = isDark ? "#172b49" : "#5ca8e5";
 }
 function readSavedTheme() {
     try {
@@ -25,6 +26,12 @@ function readSavedTheme() {
     }
 }
 applyTheme(readSavedTheme());
+const heroObserver = new IntersectionObserver((entries) => {
+    const entry = entries[0];
+    if (entry)
+        document.body.classList.toggle("has-left-hero", !entry.isIntersecting);
+}, { threshold: 0.2 });
+heroObserver.observe(heroSection);
 themeButton.addEventListener("click", () => {
     const nextTheme = root.dataset.theme === "dark" ? "light" : "dark";
     applyTheme(nextTheme);
