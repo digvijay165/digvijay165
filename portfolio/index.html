@@ -3,111 +3,97 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f6f5f0" />
-    <meta name="description" content="Digvijay builds practical, responsive web experiences — from civic technology prototypes to browser tools." />
-    <meta property="og:title" content="Digvijay — Front-end developer" />
-    <meta property="og:description" content="Small ideas, made useful. Explore Digvijay's web projects and experiments." />
+    <meta name="theme-color" content="#4c9ddd" />
+    <meta name="description" content="Digvijay's portfolio — thoughtful, useful web projects and experiments." />
+    <meta property="og:title" content="Digvijay — Portfolio" />
+    <meta property="og:description" content="A little corner of the internet for Digvijay's projects and experiments." />
     <meta property="og:type" content="website" />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%231d2923'/%3E%3Ctext x='50%25' y='53%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='30' font-weight='700' fill='%23c1f06b'%3ED%3C/text%3E%3C/svg%3E" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%234c9ddd'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-family='Georgia' font-size='38' fill='white'%3ED%3C/text%3E%3C/svg%3E" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Digvijay — Front-end developer</title>
+    <title>Digvijay — Portfolio</title>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
-      <a class="wordmark" href="#top" aria-label="Digvijay, home"><span class="wordmark-icon">D</span><span>digvijay<span class="wordmark-dot">.</span></span></a>
-      <nav class="main-nav" aria-label="Main navigation">
-        <a href="#work">Work <span>03</span></a>
-        <a href="#about">About</a>
-        <a href="https://github.com/digvijay165" target="_blank" rel="noreferrer">GitHub <span class="external-arrow" aria-hidden="true">↗</span></a>
-      </nav>
-      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme">
-        <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
-        <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.4A8.5 8.5 0 0 1 8.6 3.8 8.5 8.5 0 1 0 20.2 15.4Z"/></svg>
-      </button>
-    </header>
+    <div class="sky-clouds" aria-hidden="true"></div>
+    <div class="page-frame" aria-hidden="true"></div>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme">
+      <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+      <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.4A8.5 8.5 0 0 1 8.6 3.8 8.5 8.5 0 1 0 20.2 15.4Z"/></svg>
+    </button>
 
     <main id="main">
-      <section class="hero page-shell" id="top" aria-labelledby="hero-title">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <p class="hero-mark">DIGVIJAY <span>·</span> PORTFOLIO</p>
         <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-line"></span> FRONT-END DEVELOPER <span class="eyebrow-location">· INDIA</span></p>
-          <h1 id="hero-title">Small ideas,<br />made <span class="highlight">useful.</span></h1>
-          <p class="hero-intro">I build practical, responsive web experiences with a focus on clarity and usability — from civic-tech prototypes to browser tools.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
-            <a class="text-link" href="https://github.com/digvijay165" target="_blank" rel="noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a>
-          </div>
-          <div class="hero-note"><span class="note-star" aria-hidden="true">✳</span><span>Thoughtful interfaces for everyday ideas.</span></div>
+          <p class="hero-kicker">A FRONT-END DEVELOPER FROM INDIA</p>
+          <h1 id="hero-title">Hi, I’m <span>Digvijay.</span></h1>
+          <p class="hero-intro">I turn small ideas into thoughtful, useful web experiences.</p>
         </div>
-
-        <div class="hero-visual" aria-label="A preview of a citizen-services interface">
-          <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
-          <div class="browser-card">
-            <div class="browser-top"><div class="browser-dots"><i></i><i></i><i></i></div><div class="browser-address"><span class="address-lock">⌑</span> terratrust.in</div><span class="browser-menu">···</span></div>
-            <div class="browser-content">
-              <div class="mini-brand"><span class="mini-brand-mark">T</span><span>TERRA TRUST</span><span class="mini-lang">EN&nbsp;⌄</span></div>
-              <div class="mini-heading">Land records,<br /><b>within reach.</b></div>
-              <p class="mini-subheading">Find trusted records and public services in one place.</p>
-              <div class="mini-search"><span class="search-icon">⌕</span><span>Search village, name, or survey no.</span><span class="search-go">→</span></div>
-              <div class="mini-stats"><div><b>20+</b><span>scripts explored</span></div><div><b>6</b><span>citizen services</span></div><div><b>1</b><span>clear starting point</span></div></div>
-              <div class="mini-map" aria-hidden="true"><span class="map-grid"></span><span class="map-road road-a"></span><span class="map-road road-b"></span><span class="map-pin">●</span><span class="map-label">SAMPLE PARCEL</span></div>
-            </div>
-          </div>
-          <div class="floating-tag floating-tag-top"><span class="tag-spark">✳</span> CIVIC TECHNOLOGY</div>
-          <div class="floating-tag floating-tag-bottom"><span class="tag-check">✓</span> DESIGNED FOR PEOPLE</div>
-          <div class="visual-caption"><span class="caption-line"></span> A glimpse of Terra Trust</div>
-        </div>
+        <a class="scroll-cue" href="#work"><span class="scroll-symbol" aria-hidden="true">⌄</span><span>SCROLL</span></a>
       </section>
 
-      <section class="metrics-band page-shell" aria-label="GitHub profile summary">
-        <div class="metric-intro"><span class="metric-dot"></span><span>Building on the open web</span></div>
-        <div class="metric"><strong id="repo-count">—</strong><span>public repositories</span></div>
-        <div class="metric"><strong id="star-count">—</strong><span>stars across projects</span></div>
-        <a class="metric-link" href="https://github.com/digvijay165?tab=repositories" target="_blank" rel="noreferrer">Browse everything <span aria-hidden="true">↗</span></a>
-      </section>
-
-      <section class="work-section page-shell section-space" id="work" aria-labelledby="work-title">
-        <div class="section-heading">
-          <div><p class="eyebrow"><span class="eyebrow-line"></span> SELECTED PROJECTS</p><h2 id="work-title">A few things<br class="mobile-break" /> I’ve made<span class="heading-period">.</span></h2></div>
-          <p class="section-aside">Useful tools and ideas, made to work<br />well on the screens people use.</p>
-        </div>
+      <section class="work-section" id="work" aria-labelledby="work-title">
+        <div class="section-topline"><span class="section-index">01 / 03</span><span class="section-note">A FEW THINGS I’VE MADE</span></div>
+        <h2 class="section-title" id="work-title">SELECTED WORK</h2>
         <div class="project-filters" role="group" aria-label="Filter projects">
           <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All <span>03</span></button>
           <button class="filter-button" type="button" data-filter="civic" aria-pressed="false">Civic tech</button>
           <button class="filter-button" type="button" data-filter="tools" aria-pressed="false">Web tools</button>
         </div>
+
         <div class="project-grid" id="project-grid">
-          <article class="project-card project-terra" data-category="civic">
-            <div class="project-art terra-art" aria-hidden="true"><div class="terra-art-top"><span class="art-brand">TERRA TRUST</span><span class="art-pill">CITIZEN SERVICES</span></div><div class="terra-art-title">Land records,<br /><b>within reach.</b></div><div class="terra-art-search"><span>⌕</span> Search a record <i>→</i></div><div class="terra-art-map"><span class="art-map-pin">●</span><span class="art-map-line art-map-line-one"></span><span class="art-map-line art-map-line-two"></span><span class="art-map-label">PARCEL 08 — SAMPLE</span></div><span class="art-number">01</span></div>
-            <div class="project-info"><div class="project-meta"><span>2026 · CIVIC TECH</span><span class="project-index">01 / 03</span></div><h3>Terra Trust</h3><p>A Smart India Hackathon prototype exploring searchable land records and citizen services. The current experience uses mock data.</p><div class="project-tags"><span>React</span><span>JavaScript</span><span>Public services</span></div><div class="project-links"><a href="https://github.com/digvijay165/terra-trust" target="_blank" rel="noreferrer">Explore the project <span aria-hidden="true">↗</span></a></div></div>
+          <article class="project-card" data-category="civic">
+            <a class="project-art terra-art" href="https://github.com/digvijay165/terra-trust" target="_blank" rel="noreferrer" aria-label="View Terra Trust on GitHub">
+              <div class="art-top"><span class="art-brand"><i>T</i> TERRA TRUST</span><span class="art-pill">CITIZEN SERVICES</span></div>
+              <div class="terra-copy"><span>LAND RECORDS</span><strong>Within<br />reach.</strong><small>Public services, made easier to find.</small></div>
+              <div class="terra-search"><span>⌕</span> Search a village or record <b>→</b></div>
+              <div class="terra-map"><span class="map-pin">●</span><span class="map-label">SAMPLE PARCEL 08</span></div>
+              <span class="art-number">01</span>
+            </a>
+            <div class="project-info"><p class="project-meta">CIVIC TECHNOLOGY <span>2026</span></p><h3>Terra Trust</h3><p>A Smart India Hackathon prototype for searchable land records and citizen services, currently using mock data.</p><div class="project-tags"><span>React</span><span>TypeScript</span><span>Public services</span></div><div class="project-links"><a href="https://github.com/digvijay165/terra-trust" target="_blank" rel="noreferrer">Source on GitHub <span>↗</span></a></div></div>
           </article>
 
-          <article class="project-card project-pulse" data-category="tools">
-            <div class="project-art pulse-art" aria-hidden="true"><div class="pulse-window"><div class="pulse-window-head"><span class="pulse-logo">◉ PULSE</span><span class="pulse-avatar">D</span></div><div class="pulse-greeting">Find your next<br /><b>favorite sound.</b></div><div class="pulse-search">⌕ &nbsp;Search songs, artists...</div><div class="track-row"><span class="track-cover cover-one">♫</span><span class="track-copy"><b>Golden Hour</b><small>JVKE · Preview</small></span><span class="track-duration">▶</span></div><div class="track-row"><span class="track-cover cover-two">♫</span><span class="track-copy"><b>Sunset Lover</b><small>Petit Biscuit · Preview</small></span><span class="track-duration">＋</span></div><div class="pulse-player-bar"><span>♫ &nbsp; Ready when you are</span><span>◁ &nbsp; ▶ &nbsp; ▷</span></div></div><span class="sound-wave wave-one"></span><span class="sound-wave wave-two"></span><span class="art-number">02</span></div>
-            <div class="project-info"><div class="project-meta"><span>MUSIC DISCOVERY</span><span class="project-index">02 / 03</span></div><h3>Pulse Player</h3><p>A browser music discovery player for previews, direct audio links, saved favorites, and a listening queue.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://pulse-player-0rdw.onrender.com/" target="_blank" rel="noreferrer">Open the live player <span aria-hidden="true">↗</span></a><a href="https://github.com/digvijay165/pulse-player" target="_blank" rel="noreferrer">Source <span aria-hidden="true">↗</span></a></div></div>
+          <article class="project-card" data-category="tools">
+            <a class="project-art pulse-art" href="https://pulse-player-0rdw.onrender.com/" target="_blank" rel="noreferrer" aria-label="Open Pulse Player">
+              <div class="pulse-sun"></div><div class="pulse-orbit pulse-orbit-one"></div><div class="pulse-orbit pulse-orbit-two"></div>
+              <div class="music-window"><div class="music-head"><span>◉ PULSE</span><i>D</i></div><p>Find your next<br /><b>favorite sound.</b></p><div class="music-search">⌕ &nbsp;Search songs, artists...</div><div class="music-track"><span class="album album-one">♫</span><span><b>Golden Hour</b><small>JVKE · Preview</small></span><i>▶</i></div><div class="music-track"><span class="album album-two">♫</span><span><b>Sunset Lover</b><small>Petit Biscuit · Preview</small></span><i>＋</i></div><div class="music-player">♫ &nbsp; Ready when you are <span>◁　▶　▷</span></div></div>
+              <span class="art-number">02</span>
+            </a>
+            <div class="project-info"><p class="project-meta">MUSIC DISCOVERY <span>WEB APP</span></p><h3>Pulse Player</h3><p>A music discovery player for audio previews, saved favorites, and a personal listening queue.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://pulse-player-0rdw.onrender.com/" target="_blank" rel="noreferrer">Open the player <span>↗</span></a><a href="https://github.com/digvijay165/pulse-player" target="_blank" rel="noreferrer">Source <span>↗</span></a></div></div>
           </article>
 
-          <article class="project-card project-calcu" data-category="tools">
-            <div class="project-art calcu-art" aria-hidden="true"><div class="calcu-device"><div class="calc-top"><span>CALCU</span><span>◐</span></div><div class="calc-screen"><small>245 × 12</small><b>2,940<span>.</span></b></div><div class="calc-keys"><i>sin</i><i>cos</i><i>tan</i><i class="key-action">÷</i><i>7</i><i>8</i><i>9</i><i class="key-action">×</i><i>4</i><i>5</i><i>6</i><i class="key-action">−</i><i>1</i><i>2</i><i>3</i><i class="key-action">+</i><i class="key-muted">DEG</i><i>0</i><i>.</i><i class="key-equals">=</i></div></div><span class="calc-spark calc-spark-one">✳</span><span class="calc-spark calc-spark-two">·</span><span class="art-number">03</span></div>
-            <div class="project-info"><div class="project-meta"><span>EVERYDAY TOOL</span><span class="project-index">03 / 03</span></div><h3>Calcu</h3><p>A responsive scientific calculator with angle modes, memory, saved history, and keyboard support.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://calculator-7rgb.onrender.com/" target="_blank" rel="noreferrer">Open the calculator <span aria-hidden="true">↗</span></a><a href="https://github.com/digvijay165/calculator" target="_blank" rel="noreferrer">Source <span aria-hidden="true">↗</span></a></div></div>
+          <article class="project-card" data-category="tools">
+            <a class="project-art calcu-art" href="https://calculator-7rgb.onrender.com/" target="_blank" rel="noreferrer" aria-label="Open Calcu scientific calculator">
+              <span class="calc-orbit calc-orbit-one"></span><span class="calc-orbit calc-orbit-two"></span>
+              <div class="calculator"><div class="calc-head"><span>CALCU</span><span>◐</span></div><div class="calc-screen"><small>245 × 12</small><b>2,940<span>.</span></b></div><div class="calc-keys"><i>sin</i><i>cos</i><i>tan</i><i class="key-action">÷</i><i>7</i><i>8</i><i>9</i><i class="key-action">×</i><i>4</i><i>5</i><i>6</i><i class="key-action">−</i><i>1</i><i>2</i><i>3</i><i class="key-action">+</i><i>DEG</i><i>0</i><i>.</i><i class="key-equals">=</i></div></div>
+              <span class="art-number">03</span>
+            </a>
+            <div class="project-info"><p class="project-meta">EVERYDAY TOOL <span>WEB APP</span></p><h3>Calcu</h3><p>A responsive scientific calculator with angle modes, saved history, memory, and keyboard support.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://calculator-7rgb.onrender.com/" target="_blank" rel="noreferrer">Open the calculator <span>↗</span></a><a href="https://github.com/digvijay165/calculator" target="_blank" rel="noreferrer">Source <span>↗</span></a></div></div>
           </article>
         </div>
       </section>
 
       <section class="about-section" id="about" aria-labelledby="about-title">
-        <div class="about-inner page-shell">
-          <div class="about-copy"><p class="eyebrow"><span class="eyebrow-line"></span> A LITTLE ABOUT ME</p><h2 id="about-title">Technology should<br />feel <span class="highlight">approachable.</span></h2><p>I’m Digvijay, a front-end developer who enjoys turning ideas into clear, responsive products. I’m especially interested in civic technology, music discovery, and small tools that make everyday tasks easier.</p><a class="about-link" href="https://github.com/digvijay165" target="_blank" rel="noreferrer">More about my work on GitHub <span aria-hidden="true">↗</span></a></div>
-          <div class="about-stack"><div class="stack-heading"><span>THE TOOLKIT</span><span class="stack-star">✳</span></div><div class="stack-list"><div><span class="stack-symbol ts-symbol">TS</span><span>TypeScript</span><span class="stack-index">01</span></div><div><span class="stack-symbol js-symbol">JS</span><span>JavaScript</span><span class="stack-index">02</span></div><div><span class="stack-symbol css-symbol">#</span><span>CSS</span><span class="stack-index">03</span></div><div><span class="stack-symbol html-symbol">5</span><span>HTML</span><span class="stack-index">04</span></div></div><div class="stack-footnote">Always curious, always building.</div></div>
+        <div class="section-topline"><span class="section-index">02 / 03</span><span class="section-note">A LITTLE ABOUT ME</span></div>
+        <h2 class="section-title" id="about-title">ABOUT</h2>
+        <div class="about-layout">
+          <div class="about-copy"><p class="about-kicker">HELLO AGAIN</p><h3>Technology should feel <em>approachable.</em></h3><p>I’m Digvijay, a front-end developer who enjoys turning ideas into clear, responsive products. I’m especially interested in civic technology, music discovery, and small tools that make everyday tasks easier.</p><a class="about-link" href="https://github.com/digvijay165" target="_blank" rel="noreferrer">More about my work on GitHub <span>↗</span></a></div>
+          <div class="about-stack"><div class="stack-heading"><span>MY TOOLKIT</span><span>✳</span></div><div class="stack-list"><div><span class="stack-symbol ts-symbol">TS</span><span>TypeScript</span><span class="stack-index">01</span></div><div><span class="stack-symbol js-symbol">JS</span><span>JavaScript</span><span class="stack-index">02</span></div><div><span class="stack-symbol css-symbol">#</span><span>CSS</span><span class="stack-index">03</span></div><div><span class="stack-symbol html-symbol">5</span><span>HTML</span><span class="stack-index">04</span></div></div><p class="stack-footnote">Always curious, always building.</p></div>
         </div>
+        <div class="profile-stats"><span>OPEN ON GITHUB</span><strong id="repo-count">—</strong><span>PUBLIC REPOSITORIES</span><i></i><strong id="star-count">—</strong><span>STARS ACROSS PROJECTS</span></div>
       </section>
 
-      <section class="closing-section page-shell" aria-labelledby="closing-title"><div class="closing-mark" aria-hidden="true">✳</div><div><p class="eyebrow">THANKS FOR STOPPING BY</p><h2 id="closing-title">Have an idea?<br /><span>Let’s make it useful.</span></h2></div><a class="button button-light" href="https://github.com/digvijay165" target="_blank" rel="noreferrer">Say hello on GitHub <span aria-hidden="true">↗</span></a><div class="closing-decoration" aria-hidden="true">D.</div></section>
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-topline"><span class="section-index">03 / 03</span><span class="section-note">THANKS FOR STOPPING BY</span></div>
+        <div class="contact-content"><p class="contact-spark" aria-hidden="true">✳</p><h2 id="contact-title">Have an idea?<br /><em>Let’s make it useful.</em></h2><a class="contact-link" href="https://github.com/digvijay165" target="_blank" rel="noreferrer">CONNECT ON GITHUB <span>↗</span></a></div>
+        <p class="contact-signoff">Designed and built with care · <span id="year"></span></p>
+      </section>
     </main>
 
-    <footer class="site-footer page-shell"><a class="wordmark footer-wordmark" href="#top"><span class="wordmark-icon">D</span><span>digvijay<span class="wordmark-dot">.</span></span></a><span>Designed and built with care.</span><a href="#top">Back to top ↑</a><span class="footer-year">© <span id="year"></span> Digvijay</span></footer>
+    <nav class="social-rail" aria-label="Quick links"><a href="https://github.com/digvijay165" target="_blank" rel="noreferrer">GITHUB</a><a href="#work">PROJECTS</a><a href="#about">ABOUT</a><a href="https://github.com/digvijay165/digvijay165/tree/main/portfolio" target="_blank" rel="noreferrer">SOURCE</a></nav>
     <p class="sr-only" id="announcement" aria-live="polite"></p>
     <script src="script.js"></script>
   </body>
