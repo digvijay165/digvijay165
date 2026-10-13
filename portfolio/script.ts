@@ -15,13 +15,14 @@ function getRequiredElement<T extends Element>(selector: string): T {
 const themeButton = getRequiredElement<HTMLButtonElement>("#theme-toggle");
 const announcement = getRequiredElement<HTMLElement>("#announcement");
 const themeColor = getRequiredElement<HTMLMetaElement>('meta[name="theme-color"]');
+const heroSection = getRequiredElement<HTMLElement>("#top");
 
 function applyTheme(theme: Theme): void {
   const isDark = theme === "dark";
   root.dataset.theme = theme;
   themeButton.setAttribute("aria-label", isDark ? "Switch to light theme" : "Switch to dark theme");
   themeButton.title = isDark ? "Switch to light theme" : "Switch to dark theme";
-  themeColor.content = isDark ? "#151a17" : "#f6f5f0";
+  themeColor.content = isDark ? "#172b49" : "#5ca8e5";
 }
 
 function readSavedTheme(): Theme {
@@ -33,6 +34,12 @@ function readSavedTheme(): Theme {
 }
 
 applyTheme(readSavedTheme());
+
+const heroObserver = new IntersectionObserver((entries) => {
+  const entry = entries[0];
+  if (entry) document.body.classList.toggle("has-left-hero", !entry.isIntersecting);
+}, { threshold: 0.2 });
+heroObserver.observe(heroSection);
 
 themeButton.addEventListener("click", () => {
   const nextTheme: Theme = root.dataset.theme === "dark" ? "light" : "dark";
