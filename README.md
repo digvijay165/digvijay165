@@ -1,14 +1,13 @@
 <div align="center">
 
-# Hi, I’m Digvijay 👋
-
-### Front-end developer building useful web experiences
-
-From civic-tech prototypes to browser tools, I enjoy turning ideas into clear, responsive products.
-
-<a href="https://github.com/digvijay165"><img src="https://img.shields.io/badge/GitHub-digvijay165-181717?style=for-the-badge&logo=github" alt="GitHub: digvijay165"></a>
-<a href="https://pulse-player-0rdw.onrender.com/"><img src="https://img.shields.io/badge/Live-Pulse%20Player-71852a?style=for-the-badge&logo=musicbrainz&logoColor=white" alt="Open Pulse Player"></a>
-<a href="https://calculator-7rgb.onrender.com/"><img src="https://img.shields.io/badge/Live-Calculator-3569c8?style=for-the-badge&logo=googlecalculator&logoColor=white" alt="Open calculator"></a>
+<h1>Hi, I’m Digvijay 👋</h1>
+<p><strong>Front-end developer building useful web experiences</strong></p>
+<p>From civic-tech prototypes to browser tools, I enjoy turning ideas into clear, responsive products.</p>
+<p>
+  <a href="https://github.com/digvijay165"><img src="https://img.shields.io/badge/GitHub-digvijay165-181717?style=for-the-badge&logo=github" alt="GitHub: digvijay165"></a>
+  <a href="https://pulse-player-0rdw.onrender.com/"><img src="https://img.shields.io/badge/Live-Pulse%20Player-71852a?style=for-the-badge&logo=musicbrainz&logoColor=white" alt="Open Pulse Player"></a>
+  <a href="https://calculator-7rgb.onrender.com/"><img src="https://img.shields.io/badge/Live-Calculator-3569c8?style=for-the-badge&logo=googlecalculator&logoColor=white" alt="Open calculator"></a>
+</p>
 
 </div>
 
@@ -46,8 +45,4 @@ From civic-tech prototypes to browser tools, I enjoy turning ideas into clear, r
 
 ---
 
-<div align="center">
-
-Thanks for stopping by. Feel free to explore a project or say hello through GitHub.
-
-</div>
+<p align="center">Thanks for stopping by. Feel free to explore a project or say hello through GitHub.</p>
