@@ -1,11 +1,11 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0ea5e9&height=200&section=header&text=Digvijay%20Singh&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Front-end%20developer%20%C2%B7%20I%20build%20web%20apps%20people%20actually%20use&descSize=17&descAlignY=58&animation=fadeIn" alt="Digvijay Singh — Front-end developer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0ea5e9&height=200&section=header&text=Digvijay%20Singh&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Student%20%C2%B7%20Front-end%20developer%20%C2%B7%20Building%20web%20apps%20people%20actually%20use&descSize=17&descAlignY=58&animation=fadeIn" alt="Digvijay Singh — Student and front-end developer" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=0EA5E9&center=true&vCenter=true&width=640&lines=Billing+software+for+real+workshops+%F0%9F%A7%BE;3D+portfolios+with+Three.js+%F0%9F%8C%8C;Civic-tech+prototypes+for+SIH+2026+%F0%9F%8F%9B%EF%B8%8F;Streaming+%26+music+apps+in+the+browser+%F0%9F%8E%AC;React+%C2%B7+TypeScript+%C2%B7+JavaScript" alt="Typing intro" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=0EA5E9&center=true&vCenter=true&width=640&lines=Student+%C2%B7+Front-end+developer+%F0%9F%8E%93;Billing+software+for+workshops+%F0%9F%A7%BE;3D+portfolios+with+Three.js+%F0%9F%8C%8C;Civic-tech+prototypes+for+SIH+2026+%F0%9F%8F%9B%EF%B8%8F;Streaming+%26+music+apps+in+the+browser+%F0%9F%8E%AC;React+%C2%B7+TypeScript+%C2%B7+JavaScript" alt="Typing intro" />
   </a>
 </p>
 
@@ -22,23 +22,27 @@
     <td width="62%" valign="middle">
       <h2>Hi, I'm Digvijay 👋</h2>
       <p>
-        I'm a <b>front-end developer from Kota, India</b>. I like turning everyday problems into
+        I'm a <b>student and front-end developer from Kota, India</b>. In class I work on
+        <b>C++, data structures and OOP</b>; outside it I turn everyday problems into
         <b>fast, simple web apps</b>: billing software for a machine-parts workshop, a land-records
         portal for Smart India Hackathon, and music and movie apps that run straight in the browser.
       </p>
       <p>
-        I care about <b>clean interfaces</b>, apps that <b>work on any screen</b>, and
-        <b>zero-friction setup</b>. Most of my projects need no install, no sign-up and no build step.
+        I learn best by building. I care about <b>clean interfaces</b>, apps that
+        <b>work on any screen</b>, and <b>zero-friction setup</b>: most of my projects need
+        no install, no sign-up and no build step.
       </p>
       <p>
+        🎓 Student, sharpening <b>DSA in C++</b> and <b>OOP</b><br/>
         🧾 Recently shipped <b>ForgeFlow</b>, a GST billing app with a 65,000-part price list<br/>
         🏛️ Building <b>Terra Trust</b> for Smart India Hackathon 2026<br/>
         🌱 Learning advanced TypeScript, Three.js and accessibility<br/>
-        🤝 Open to <b>front-end internships, roles and collaborations</b>
+        🤝 Looking for <b>internships</b> and open to collaborations
       </p>
       <p>
-        <img src="https://img.shields.io/badge/Status-Open%20to%20work-22c55e?style=flat-square" alt="Open to work" />
+        <img src="https://img.shields.io/badge/Open%20to-Internships-22c55e?style=flat-square" alt="Open to internships" />
         <img src="https://img.shields.io/badge/Based%20in-Kota%2C%20India-0ea5e9?style=flat-square" alt="Location" />
+        <img src="https://img.shields.io/badge/Student-%F0%9F%8E%93-f59e0b?style=flat-square" alt="Student" />
         <img src="https://img.shields.io/badge/Focus-Front--end-7c3aed?style=flat-square" alt="Focus" />
       </p>
     </td>
@@ -159,10 +163,43 @@
 ## 🛠️ Tech stack
 
 <p align="center">
+  <b>Web</b><br/>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,threejs,nodejs,git,github,vscode,vercel&perline=11" alt="Tech stack" />
+    <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,threejs,nodejs&perline=7" alt="Web stack" />
   </a>
 </p>
+
+<p align="center">
+  <b>Programming &amp; tools</b><br/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cpp,c,py,git,github,vscode,vercel&perline=7" alt="Languages and tools" />
+  </a>
+</p>
+
+---
+
+## 🎓 What I'm learning
+
+<table align="center">
+  <tr>
+    <td valign="top">
+      <b>📘 Computer science</b>
+      <ul>
+        <li>Data structures &amp; algorithms in C++</li>
+        <li>Object-oriented programming</li>
+        <li>Software engineering basics</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <b>🌐 Web development</b>
+      <ul>
+        <li>Advanced TypeScript patterns</li>
+        <li>3D on the web with Three.js</li>
+        <li>Accessible, responsive UI</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -184,7 +221,7 @@
 ---
 
 <p align="center">
-  <b>Thanks for stopping by!</b> Try one of the live demos above, or <a href="mailto:digvijaysingh5360@gmail.com">send me an email</a>. ⭐ a repo if you find it useful.
+  <b>Thanks for stopping by!</b> Try one of the live demos above. For internships or collabs, <a href="mailto:digvijaysingh5360@gmail.com">send me an email</a>. ⭐ a repo if you find it useful.
 </p>
 
 <p align="center">
