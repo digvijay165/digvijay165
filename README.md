@@ -1,11 +1,11 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0ea5e9&height=200&section=header&text=Digvijay%20Singh&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Student%20%C2%B7%20Front-end%20developer%20%C2%B7%20Building%20web%20apps%20people%20actually%20use&descSize=17&descAlignY=58&animation=fadeIn" alt="Digvijay Singh — Student and front-end developer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0ea5e9&height=200&section=header&text=Digvijay%20Singh&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Student%20%C2%B7%20Front-end%20developer%20%C2%B7%20Problem%20solver&descSize=17&descAlignY=58&animation=fadeIn" alt="Digvijay Singh: student, front-end developer, problem solver" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=0EA5E9&center=true&vCenter=true&width=640&lines=Student+%C2%B7+Front-end+developer+%F0%9F%8E%93;Billing+software+for+workshops+%F0%9F%A7%BE;3D+portfolios+with+Three.js+%F0%9F%8C%8C;Civic-tech+prototypes+for+SIH+2026+%F0%9F%8F%9B%EF%B8%8F;Streaming+%26+music+apps+in+the+browser+%F0%9F%8E%AC;React+%C2%B7+TypeScript+%C2%B7+JavaScript" alt="Typing intro" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=0EA5E9&center=true&vCenter=true&width=640&lines=Student+%C2%B7+Front-end+developer+%F0%9F%8E%93;Solving+DSA+problems+in+C%2B%2B+%F0%9F%A7%A0;Billing+software+for+workshops+%F0%9F%A7%BE;3D+portfolios+with+Three.js+%F0%9F%8C%8C;Civic-tech+prototypes+for+SIH+2026+%F0%9F%8F%9B%EF%B8%8F;C%2B%2B+%C2%B7+Java+%C2%B7+Python+%C2%B7+JavaScript+%C2%B7+TypeScript" alt="Typing intro" />
   </a>
 </p>
 
@@ -13,6 +13,7 @@
   <a href="https://digvijay165.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-Visit-0ea5e9?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
   <a href="mailto:digvijaysingh5360@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-1e3a8a?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/digvijay165?tab=repositories"><img src="https://img.shields.io/badge/Projects-Browse-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
+  <a href="https://github.com/digvijay165/LeetCode"><img src="https://img.shields.io/badge/LeetCode-Solutions-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode solutions" /></a>
 </p>
 
 ---
@@ -25,7 +26,7 @@
         I'm a <b>student and front-end developer from Kota, India</b>. In class I work on
         <b>C++, data structures and OOP</b>; outside it I turn everyday problems into
         <b>fast, simple web apps</b>: billing software for a machine-parts workshop, a land-records
-        portal for Smart India Hackathon, and music and movie apps that run straight in the browser.
+        portal for Smart India Hackathon, a marketplace storefront and a music player that runs straight in the browser.
       </p>
       <p>
         I learn best by building. I care about <b>clean interfaces</b>, apps that
@@ -34,6 +35,7 @@
       </p>
       <p>
         🎓 Student, sharpening <b>DSA in C++</b> and <b>OOP</b><br/>
+        🧠 Solving problems on <b>LeetCode</b> in 14 languages<br/>
         🧾 Recently shipped <b>ForgeFlow</b>, a GST billing app with a 65,000-part price list<br/>
         🏛️ Building <b>Terra Trust</b> for Smart India Hackathon 2026<br/>
         🌱 Learning advanced TypeScript, Three.js and accessibility<br/>
@@ -54,12 +56,70 @@
 
 ---
 
+## 💻 Languages
+
+<p align="center"><b>Core languages</b>: what I write most, for DSA, coursework and projects</p>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cpp,java,py,js,ts,cs,c&perline=7" alt="C++, Java, Python, JavaScript, TypeScript, C#, C" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Python_3-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3" />
+  <img src="https://img.shields.io/badge/Python_2-306998?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python 2" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=111" alt="C" />
+</p>
+
+<p align="center"><b>Also comfortable with</b>: languages I use for problem solving and side experiments</p>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=go,kotlin,swift,rust,ruby,php&perline=6" alt="Go, Kotlin, Swift, Rust, Ruby, PHP" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" alt="Ruby" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+</p>
+
+---
+
+## 🛠️ Web stack &amp; tools
+
+<p align="center">
+  <b>Front-end &amp; web</b><br/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,html,css,threejs,nodejs,tailwind&perline=6" alt="React, HTML, CSS, Three.js, Node.js, Tailwind" />
+  </a>
+</p>
+
+<p align="center">
+  <b>Tools &amp; platforms</b><br/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,linux&perline=5" alt="Git, GitHub, VS Code, Vercel, Linux" />
+  </a>
+</p>
+
+---
+
 ## 🚀 Featured projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🧾 <a href="https://github.com/digvijay165/machine-shop-billing">ForgeFlow — Workshop Billing</a></h3>
+      <h3>🧾 <a href="https://github.com/digvijay165/machine-shop-billing">ForgeFlow: Workshop Billing</a></h3>
       <p><b>GST billing software for a machine-parts workshop.</b></p>
       <ul>
         <li>Instant search across <b>65,000+ parts</b> by part number or name</li>
@@ -108,20 +168,19 @@
       <a href="https://digvijay165.github.io/portfolio/"><b>Live site →</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/portfolio"><b>Source →</b></a>
     </td>
     <td width="50%" valign="top">
-      <h3>🎬 <a href="https://github.com/digvijay165/cinewave">CineWave</a></h3>
-      <p><b>A Netflix-style movie and series browsing app.</b></p>
+      <h3>🛍️ <a href="https://github.com/digvijay165/mosaic-market">Mosaic Market</a></h3>
+      <p><b>A responsive React marketplace storefront.</b></p>
       <ul>
-        <li>Home, Series, Films and My List sections with responsive carousels</li>
-        <li>Search by title, genre, format or description</li>
-        <li>Saved favourites and continue-watching progress on the device</li>
-        <li>Sample video player</li>
+        <li>Product search with category and price filters</li>
+        <li>Favourites and a working cart</li>
+        <li>Clean, mobile-first layout</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111" />
+        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
       </p>
-      <a href="https://cinewave-eouf.onrender.com"><b>Live demo →</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/cinewave"><b>Source →</b></a>
+      <a href="https://mosaic-market-alpha.vercel.app/"><b>Live demo →</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/mosaic-market"><b>Source →</b></a>
     </td>
   </tr>
   <tr>
@@ -158,22 +217,8 @@
   </tr>
 </table>
 
----
-
-## 🛠️ Tech stack
-
 <p align="center">
-  <b>Web</b><br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,threejs,nodejs&perline=7" alt="Web stack" />
-  </a>
-</p>
-
-<p align="center">
-  <b>Programming &amp; tools</b><br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,c,py,git,github,vscode,vercel&perline=7" alt="Languages and tools" />
-  </a>
+  <a href="https://github.com/digvijay165/LeetCode"><b>🧠 LeetCode solutions</b></a>: my DSA practice, mostly in C++, organised by problem.
 </p>
 
 ---
@@ -198,6 +243,14 @@
         <li>Accessible, responsive UI</li>
       </ul>
     </td>
+    <td valign="top">
+      <b>🦀 Exploring</b>
+      <ul>
+        <li>Systems programming in Rust &amp; Go</li>
+        <li>Android with Kotlin</li>
+        <li>Backend basics with PHP &amp; Ruby</li>
+      </ul>
+    </td>
   </tr>
 </table>
 
@@ -207,7 +260,7 @@
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=digvijay165&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github&count_private=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=digvijay165&layout=compact&hide_border=true&theme=tokyonight&langs_count=6" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=digvijay165&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="Top languages" />
 </p>
 
 <p align="center">
