@@ -1,17 +1,15 @@
 <!-- Banner (follows the visitor's light / dark GitHub theme) -->
-<a href="https://digvijay165.github.io/portfolio/">
-  <picture>
+<picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg" />
     <img src="./assets/banner-light.svg" alt="Digvijay Singh: student and front-end developer from Kota, India" width="100%" />
   </picture>
-</a>
 
 <p align="center">
-  <a href="https://digvijay165.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/buttons/portfolio-dark.svg" /><img src="./assets/buttons/portfolio-light.svg" alt="Portfolio" height="44" /></picture></a>
-  <a href="mailto:digvijaysingh5360@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/buttons/email-dark.svg" /><img src="./assets/buttons/email-light.svg" alt="Email" height="44" /></picture></a>
-  <a href="https://www.linkedin.com/in/digvijay-singh-a188b1382/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/buttons/linkedin-dark.svg" /><img src="./assets/buttons/linkedin-light.svg" alt="LinkedIn" height="44" /></picture></a>
-  <a href="https://github.com/digvijay165/LeetCode"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/buttons/leetcode-dark.svg" /><img src="./assets/buttons/leetcode-light.svg" alt="LeetCode" height="44" /></picture></a>
+  <a href="https://digvijay165.github.io/portfolio/"><img src="./assets/buttons/portfolio.svg" alt="Portfolio" height="44" /></a>
+  <a href="mailto:digvijaysingh5360@gmail.com"><img src="./assets/buttons/email.svg" alt="Email" height="44" /></a>
+  <a href="https://www.linkedin.com/in/digvijay-singh-a188b1382/"><img src="./assets/buttons/linkedin.svg" alt="LinkedIn" height="44" /></a>
+  <a href="https://github.com/digvijay165/LeetCode"><img src="./assets/buttons/leetcode.svg" alt="LeetCode" height="44" /></a>
 </p>
 
 <table>
@@ -160,12 +158,10 @@
 
 <br/>
 
-<a href="mailto:digvijaysingh5360@gmail.com">
-  <picture>
+<picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
     <img src="./assets/footer-light.svg" alt="Let's build something together. Email digvijaysingh5360@gmail.com" width="100%" />
   </picture>
-</a>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=digvijay165&style=flat-square&color=4f46e5&label=Profile+views" alt="Profile views" />
