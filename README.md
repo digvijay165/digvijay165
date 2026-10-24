@@ -1,286 +1,166 @@
-<!-- Banner -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0ea5e9&height=200&section=header&text=Digvijay%20Singh&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Student%20%C2%B7%20Front-end%20developer%20%C2%B7%20Problem%20solver&descSize=17&descAlignY=58&animation=fadeIn" alt="Digvijay Singh: student, front-end developer, problem solver" width="100%" />
-</p>
+<!-- Banner (follows the visitor's light / dark GitHub theme) -->
+<a href="https://digvijay165.github.io/portfolio/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg" />
+    <img src="./assets/banner-light.svg" alt="Digvijay Singh: student and front-end developer from Kota, India" width="100%" />
+  </picture>
+</a>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=0EA5E9&center=true&vCenter=true&width=640&lines=Student+%C2%B7+Front-end+developer+%F0%9F%8E%93;Solving+DSA+problems+in+C%2B%2B+%F0%9F%A7%A0;Billing+software+for+workshops+%F0%9F%A7%BE;3D+portfolios+with+Three.js+%F0%9F%8C%8C;Civic-tech+prototypes+for+SIH+2026+%F0%9F%8F%9B%EF%B8%8F;C%2B%2B+%C2%B7+Java+%C2%B7+Python+%C2%B7+JavaScript+%C2%B7+TypeScript" alt="Typing intro" />
-  </a>
+  <a href="https://digvijay165.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-0ea5e9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:digvijaysingh5360@gmail.com"><img src="https://img.shields.io/badge/Email-4f46e5?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/digvijay165/LeetCode"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode solutions" /></a>
 </p>
-
-<p align="center">
-  <a href="https://digvijay165.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-Visit-0ea5e9?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
-  <a href="mailto:digvijaysingh5360@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-1e3a8a?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/digvijay165?tab=repositories"><img src="https://img.shields.io/badge/Projects-Browse-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
-  <a href="https://github.com/digvijay165/LeetCode"><img src="https://img.shields.io/badge/LeetCode-Solutions-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode solutions" /></a>
-</p>
-
----
 
 <table>
   <tr>
-    <td width="62%" valign="middle">
+    <td width="66%" valign="middle">
       <h2>Hi, I'm Digvijay 👋</h2>
       <p>
-        I'm a <b>student and front-end developer from Kota, India</b>. In class I work on
-        <b>C++, data structures and OOP</b>; outside it I turn everyday problems into
-        <b>fast, simple web apps</b>: billing software for a machine-parts workshop, a land-records
-        portal for Smart India Hackathon, a marketplace storefront and a music player that runs straight in the browser.
+        I'm a <b>student and front-end developer from Kota, India</b>. I like turning everyday problems into
+        <b>fast, friendly web apps</b>: a travel planner for the Himalayas, a book reader with real 3D page turns,
+        GST billing software for a real machine-parts workshop, and a land-records portal for Smart India Hackathon 2026.
       </p>
       <p>
-        I learn best by building. I care about <b>clean interfaces</b>, apps that
-        <b>work on any screen</b>, and <b>zero-friction setup</b>: most of my projects need
-        no install, no sign-up and no build step.
-      </p>
-      <p>
-        🎓 Student, sharpening <b>DSA in C++</b> and <b>OOP</b><br/>
-        🧠 Solving problems on <b>LeetCode</b> in 14 languages<br/>
-        🧾 Recently shipped <b>ForgeFlow</b>, a GST billing app with a 65,000-part price list<br/>
-        🏛️ Building <b>Terra Trust</b> for Smart India Hackathon 2026<br/>
-        🌱 Learning advanced TypeScript, Three.js and accessibility<br/>
-        🤝 Looking for <b>internships</b> and open to collaborations
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Open%20to-Internships-22c55e?style=flat-square" alt="Open to internships" />
-        <img src="https://img.shields.io/badge/Based%20in-Kota%2C%20India-0ea5e9?style=flat-square" alt="Location" />
-        <img src="https://img.shields.io/badge/Student-%F0%9F%8E%93-f59e0b?style=flat-square" alt="Student" />
-        <img src="https://img.shields.io/badge/Focus-Front--end-7c3aed?style=flat-square" alt="Focus" />
+        🛠️ &nbsp;Building full-stack apps with <b>React, TypeScript, Node.js and Postgres</b><br/>
+        🧠 &nbsp;Practising <b>data structures &amp; algorithms</b> on <a href="https://github.com/digvijay165/LeetCode">LeetCode</a><br/>
+        🌱 &nbsp;Learning advanced TypeScript, Three.js and accessibility<br/>
+        🤝 &nbsp;<b>Open to internships</b> and collaborations
       </p>
     </td>
-    <td width="38%" align="center" valign="middle">
-      <img src="./character.svg" alt="Coder illustration" width="230" />
+    <td width="34%" align="center" valign="middle">
+      <img src="./character.svg" alt="Illustration of a developer at a laptop" width="200" />
     </td>
   </tr>
 </table>
-
----
-
-## 💻 Languages
-
-<p align="center"><b>Core languages</b>: what I write most, for DSA, coursework and projects</p>
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,java,py,js,ts,cs,c&perline=7" alt="C++, Java, Python, JavaScript, TypeScript, C#, C" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Python_3-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3" />
-  <img src="https://img.shields.io/badge/Python_2-306998?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python 2" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=111" alt="C" />
-</p>
-
-<p align="center"><b>Also comfortable with</b>: languages I use for problem solving and side experiments</p>
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=go,kotlin,swift,rust,ruby,php&perline=6" alt="Go, Kotlin, Swift, Rust, Ruby, PHP" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
-  <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" alt="Ruby" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-</p>
-
----
-
-## 🛠️ Web stack &amp; tools
-
-<p align="center">
-  <b>Front-end &amp; web</b><br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,html,css,threejs,nodejs,tailwind&perline=6" alt="React, HTML, CSS, Three.js, Node.js, Tailwind" />
-  </a>
-</p>
-
-<p align="center">
-  <b>Tools &amp; platforms</b><br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,linux&perline=5" alt="Git, GitHub, VS Code, Vercel, Linux" />
-  </a>
-</p>
-
----
 
 ## 🚀 Featured projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🧾 <a href="https://github.com/digvijay165/machine-shop-billing">ForgeFlow: Workshop Billing</a></h3>
-      <p><b>GST billing software for a machine-parts workshop.</b></p>
-      <ul>
-        <li>Instant search across <b>65,000+ parts</b> by part number or name</li>
-        <li>Type a part number and press Enter: MRP and GST fill in automatically</li>
-        <li>GST invoices with CGST/SGST/IGST, round off and amount in words</li>
-        <li>Upload a new MRP Excel list in the browser; share bills on WhatsApp</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111" />
-        <img src="https://img.shields.io/badge/IndexedDB-0f172a?style=flat-square" />
-      </p>
-      <a href="https://digvijay165.github.io/machine-shop-billing/"><b>Live app →</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/machine-shop-billing"><b>Source →</b></a>
+      <a href="https://himvoya-travel-planner.onrender.com/"><img src="./assets/projects/himvoya.jpg" alt="Himvoya home page" width="100%" /></a>
+      <h3>🏔️ Himvoya</h3>
+      <p>India-first travel planner: 106 destination guides including 30 Himalayan treks, maps, live weather, accounts and a day-by-day trip planner.</p>
+      <p><code>React</code> <code>TypeScript</code> <code>Tailwind</code> <code>Express</code> <code>SQLite</code></p>
+      <a href="https://himvoya-travel-planner.onrender.com/"><b>Live site ↗</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/himvoya-travel-planner">Code</a>
     </td>
     <td width="50%" valign="top">
-      <h3>🏛️ <a href="https://github.com/digvijay165/terra-trust">Terra Trust</a></h3>
-      <p><b>AI-verified land records and citizen services</b>, a Smart India Hackathon 2026 prototype.</p>
-      <ul>
-        <li>Search records by name, village or khasra number</li>
-        <li>Scanned-document preview, extracted fields and a GIS map pin</li>
-        <li>Live 4-stage application tracker and <b>EN / हिंदी</b> toggle</li>
-        <li>Mobile app-style navigation</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111" />
-        <img src="https://img.shields.io/badge/SIH-2026-ff7a00?style=flat-square" />
-      </p>
-      <a href="https://github.com/digvijay165/terra-trust"><b>Source →</b></a>
+      <a href="https://shelfspace-u4i2.onrender.com"><img src="./assets/projects/shelfspace.jpg" alt="A page turning in the Shelfspace 3D reader" width="100%" /></a>
+      <h3>📚 Shelfspace</h3>
+      <p>A cozy book library with a 3D page-turning reader, soft paper sounds and an admin-approved community shelf. No framework, no build step.</p>
+      <p><code>JavaScript</code> <code>Node.js</code> <code>PostgreSQL</code></p>
+      <a href="https://shelfspace-u4i2.onrender.com"><b>Live site ↗</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/Shelfspace">Code</a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🌌 <a href="https://github.com/digvijay165/portfolio">3D Developer Portfolio</a></h3>
-      <p><b>An interactive 3D portfolio</b> built with Three.js and custom shaders.</p>
-      <ul>
-        <li>Morphing 3D core with a GLSL noise shader and orbiting tech labels</li>
-        <li>2,600-particle starfield that reacts to the mouse and scroll</li>
-        <li>Smooth page transitions, responsive on every screen</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/GLSL-5586A4?style=flat-square&logo=opengl&logoColor=white" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111" />
-      </p>
-      <a href="https://digvijay165.github.io/portfolio/"><b>Live site →</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/portfolio"><b>Source →</b></a>
+      <a href="https://little-lantern-cafe.onrender.com"><img src="./assets/projects/little-lantern-cafe.jpg" alt="Little Lantern Café home page" width="100%" /></a>
+      <h3>☕ Little Lantern Café</h3>
+      <p>Café website with menu, opening hours, map and order-ahead pickup slots, plus a live staff dashboard for orders and sales.</p>
+      <p><code>React</code> <code>Bootstrap</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Docker</code></p>
+      <a href="https://little-lantern-cafe.onrender.com"><b>Live site ↗</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/cafe-website">Code</a>
     </td>
     <td width="50%" valign="top">
-      <h3>🛍️ <a href="https://github.com/digvijay165/mosaic-market">Mosaic Market</a></h3>
-      <p><b>A responsive React marketplace storefront.</b></p>
-      <ul>
-        <li>Product search with category and price filters</li>
-        <li>Favourites and a working cart</li>
-        <li>Clean, mobile-first layout</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111" />
-        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-      </p>
-      <a href="https://mosaic-market-alpha.vercel.app/"><b>Live demo →</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/mosaic-market"><b>Source →</b></a>
+      <a href="https://digvijay165.github.io/billing/"><img src="./assets/projects/forgeflow.jpg" alt="ForgeFlow billing dashboard" width="100%" /></a>
+      <h3>🧾 ForgeFlow</h3>
+      <p>GST billing, stock, purchases and reports for machine-parts workshops. Type a part number, press Enter, and MRP and GST fill in.</p>
+      <p><code>JavaScript</code> <code>IndexedDB</code> <code>Supabase</code></p>
+      <a href="https://digvijay165.github.io/billing/"><b>Live app ↗</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/billing">Code</a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎧 <a href="https://github.com/digvijay165/pulse-player">Pulse Player</a></h3>
-      <p><b>A bright, browser-based music player.</b></p>
-      <ul>
-        <li>Search any song and play it in full through YouTube or Audius</li>
-        <li>Queue with reorder, repeat, shuffle and 0.5×–4× speed</li>
-        <li>Favourites saved on the device; no account or API key needed</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111" />
-      </p>
-      <a href="https://pulse-player-0rdw.onrender.com/"><b>Live demo →</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/pulse-player"><b>Source →</b></a>
+      <a href="https://online-bookstore-and-reader-platform.onrender.com"><img src="./assets/projects/bookstore.jpg" alt="Online Bookstore home page" width="100%" /></a>
+      <h3>📖 Online Bookstore &amp; Reader</h3>
+      <p>A bookstore with 541 titles, 246 free classics in an online reader, community publishing with editor review, and two-step verification.</p>
+      <p><code>JavaScript</code> <code>Node.js</code> <code>Express</code> <code>SQLite</code></p>
+      <a href="https://online-bookstore-and-reader-platform.onrender.com"><b>Live site ↗</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/Online-bookstore-and-reader-platform">Code</a>
     </td>
     <td width="50%" valign="top">
-      <h3>🧮 <a href="https://github.com/digvijay165/calculator">Calcu</a></h3>
-      <p><b>A clean scientific calculator for the browser.</b></p>
-      <ul>
-        <li>Trig, logs, factorials, exponentials, π and e</li>
-        <li>DEG / RAD modes and MC · MR · M+ · M− memory</li>
-        <li>History of the last 40 calculations, light and dark themes</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111" />
-      </p>
-      <a href="https://calculator-7rgb.onrender.com/"><b>Live demo →</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/calculator"><b>Source →</b></a>
+      <a href="https://terra-trust.onrender.com"><img src="./assets/projects/terra-trust.jpg" alt="Terra Trust home page" width="100%" /></a>
+      <h3>🏛️ Terra Trust</h3>
+      <p>Smart India Hackathon 2026 prototype: AI-verified land records with khasra search, a GIS map pin, an application tracker and EN / हिंदी.</p>
+      <p><code>React</code> <code>JavaScript</code></p>
+      <a href="https://terra-trust.onrender.com"><b>Live demo ↗</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/terra-trust">Code</a>
     </td>
   </tr>
 </table>
 
-<p align="center">
-  <a href="https://github.com/digvijay165/LeetCode"><b>🧠 LeetCode solutions</b></a>: my DSA practice, mostly in C++, organised by problem.
-</p>
+<details>
+  <summary><b>More projects</b></summary>
+  <br/>
 
----
+| Project | What it is | Links |
+| --- | --- | --- |
+| 🌌 **3D Portfolio** | Interactive portfolio with Three.js, GLSL shaders and page transitions | [Live](https://digvijay165.github.io/portfolio/) · [Code](https://github.com/digvijay165/portfolio) |
+| 🛍️ **Mosaic Market** | React storefront with search, filters, favourites and a cart | [Live](https://mosaic-market-alpha.vercel.app/) · [Code](https://github.com/digvijay165/mosaic-market) |
+| 🎧 **Pulse Player** | Browser music player with search, queue and favourites | [Live](https://pulse-player-0rdw.onrender.com/) · [Code](https://github.com/digvijay165/pulse-player) |
+| 👗 **Rewear** | Wardrobe stylist that builds outfits from clothes you already own | [Live](https://digvijay165.github.io/rewear-wardrobe-stylist/) · [Code](https://github.com/digvijay165/rewear-wardrobe-stylist) |
+| 🧾 **ForgeFlow Classic** | The original billing app with a built-in 65,000-part price list | [Live](https://digvijay165.github.io/machine-shop-billing/) · [Code](https://github.com/digvijay165/machine-shop-billing) |
+| 🧮 **Calcu** | Scientific calculator with history, memory and light / dark themes | [Live](https://calculator-7rgb.onrender.com) · [Code](https://github.com/digvijay165/calculator) |
+| 🧠 **LeetCode** | My DSA solutions, synced automatically from LeetCode | [Code](https://github.com/digvijay165/LeetCode) |
 
-## 🎓 What I'm learning
+</details>
 
-<table align="center">
+<!-- PROJECTS:START -->
+<!-- PROJECTS:END -->
+
+## 🛠️ Tech stack
+
+<table>
   <tr>
-    <td valign="top">
-      <b>📘 Computer science</b>
-      <ul>
-        <li>Data structures &amp; algorithms in C++</li>
-        <li>Object-oriented programming</li>
-        <li>Software engineering basics</li>
-      </ul>
+    <td align="center" width="50%">
+      <sub><b>LANGUAGES</b></sub><br/><br/>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,html,css,cpp,java&theme=dark" />
+        <img src="https://skillicons.dev/icons?i=ts,js,html,css,cpp,java&theme=light" alt="TypeScript, JavaScript, HTML, CSS, C++, Java" />
+      </picture>
     </td>
-    <td valign="top">
-      <b>🌐 Web development</b>
-      <ul>
-        <li>Advanced TypeScript patterns</li>
-        <li>3D on the web with Three.js</li>
-        <li>Accessible, responsive UI</li>
-      </ul>
+    <td align="center" width="50%">
+      <sub><b>FRONT-END</b></sub><br/><br/>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,vite,tailwind,bootstrap,threejs&theme=dark" />
+        <img src="https://skillicons.dev/icons?i=react,vite,tailwind,bootstrap,threejs&theme=light" alt="React, Vite, Tailwind CSS, Bootstrap, Three.js" />
+      </picture>
     </td>
-    <td valign="top">
-      <b>🦀 Exploring</b>
-      <ul>
-        <li>Systems programming in Rust &amp; Go</li>
-        <li>Android with Kotlin</li>
-        <li>Backend basics with PHP &amp; Ruby</li>
-      </ul>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <sub><b>BACK-END &amp; DATA</b></sub><br/><br/>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,express,postgres,sqlite,supabase&theme=dark" />
+        <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,sqlite,supabase&theme=light" alt="Node.js, Express, PostgreSQL, SQLite, Supabase" />
+      </picture>
+    </td>
+    <td align="center" width="50%">
+      <sub><b>TOOLS &amp; DEPLOY</b></sub><br/><br/>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,github,githubactions,docker,vercel&theme=dark" />
+        <img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,vercel&theme=light" alt="Git, GitHub, GitHub Actions, Docker, Vercel" />
+      </picture>
     </td>
   </tr>
 </table>
 
----
-
-## 📊 GitHub stats
+## 📊 GitHub activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=digvijay165&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github&count_private=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=digvijay165&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=digvijay165&theme=tokyonight&hide_border=true" alt="Contribution streak" />
-</p>
-
-<p align="center">
-  <img src="https://ghchart.rshah.org/0ea5e9/digvijay165" alt="Digvijay's contribution chart" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=digvijay165&show_icons=true&hide_border=true&rank_icon=github&theme=github_dark&bg_color=0d1117" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=digvijay165&show_icons=true&hide_border=true&rank_icon=github&bg_color=ffffff" alt="Digvijay's GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=digvijay165&hide_border=true&theme=github-dark-blue&background=0d1117" />
+    <img height="170" src="https://streak-stats.demolab.com?user=digvijay165&hide_border=true&background=ffffff" alt="Digvijay's contribution streak" />
+  </picture>
 </p>
 
 ---
 
 <p align="center">
-  <b>Thanks for stopping by!</b> Try one of the live demos above. For internships or collabs, <a href="mailto:digvijaysingh5360@gmail.com">send me an email</a>. ⭐ a repo if you find it useful.
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=digvijay165&style=flat-square&color=0ea5e9&label=Profile+views" alt="Profile views" />
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:1e3a8a,100:0f172a&height=110&section=footer" width="100%" />
+  Thanks for stopping by! Try one of the live demos above, or <a href="mailto:digvijaysingh5360@gmail.com">send me an email</a> about internships and collaborations.
+  <br/><br/>
+  <img src="https://komarev.com/ghpvc/?username=digvijay165&style=flat-square&color=4f46e5&label=Profile+views" alt="Profile views" />
 </p>
