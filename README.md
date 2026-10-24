@@ -9,7 +9,7 @@
   <a href="https://digvijay165.github.io/portfolio/"><img src="./assets/buttons/portfolio.svg" alt="Portfolio" height="44" /></a>
   <a href="mailto:digvijaysingh5360@gmail.com"><img src="./assets/buttons/email.svg" alt="Email" height="44" /></a>
   <a href="https://www.linkedin.com/in/digvijay-singh-a188b1382/"><img src="./assets/buttons/linkedin.svg" alt="LinkedIn" height="44" /></a>
-  <a href="https://github.com/digvijay165/LeetCode"><img src="./assets/buttons/leetcode.svg" alt="LeetCode" height="44" /></a>
+  <a href="https://leetcode.com/u/DIGVIJAY5360/"><img src="./assets/buttons/leetcode.svg" alt="LeetCode" height="44" /></a>
 </p>
 
 <table>
@@ -23,7 +23,7 @@
       </p>
       <p>
         🛠️ &nbsp;Building full-stack apps with <b>React, TypeScript, Node.js and Postgres</b><br/>
-        🧠 &nbsp;Practising <b>data structures &amp; algorithms</b> on <a href="https://github.com/digvijay165/LeetCode">LeetCode</a><br/>
+        🧠 &nbsp;Practising <b>data structures &amp; algorithms</b>: 56 problems solved on <a href="https://leetcode.com/u/DIGVIJAY5360/">LeetCode</a><br/>
         🌱 &nbsp;Learning advanced TypeScript, Three.js and accessibility<br/>
         🤝 &nbsp;<b>Open to internships</b> and collaborations
       </p>
@@ -99,7 +99,7 @@
 | 👗 **Rewear** | Wardrobe stylist that builds outfits from clothes you already own | [Live](https://digvijay165.github.io/rewear-wardrobe-stylist/) · [Code](https://github.com/digvijay165/rewear-wardrobe-stylist) |
 | 🧾 **ForgeFlow Classic** | The original billing app with a built-in 65,000-part price list | [Live](https://digvijay165.github.io/machine-shop-billing/) · [Code](https://github.com/digvijay165/machine-shop-billing) |
 | 🧮 **Calcu** | Scientific calculator with history, memory and light / dark themes | [Live](https://calculator-7rgb.onrender.com) · [Code](https://github.com/digvijay165/calculator) |
-| 🧠 **LeetCode** | My DSA solutions, synced automatically from LeetCode | [Code](https://github.com/digvijay165/LeetCode) |
+| 🧠 **LeetCode** | My DSA solutions, synced automatically from LeetCode | [Profile](https://leetcode.com/u/DIGVIJAY5360/) · [Code](https://github.com/digvijay165/LeetCode) |
 
 </details>
 
