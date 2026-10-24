@@ -114,15 +114,15 @@
     <td align="center" width="50%">
       <sub><b>LANGUAGES</b></sub><br/><br/>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,html,css,cpp,java&theme=dark" />
-        <img src="https://skillicons.dev/icons?i=ts,js,html,css,cpp,java&theme=light" alt="TypeScript, JavaScript, HTML, CSS, C++, Java" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Chtml%2Ccss%2Ccpp%2Cjava&theme=dark" />
+        <img src="https://skillicons.dev/icons?i=ts%2Cjs%2Chtml%2Ccss%2Ccpp%2Cjava&theme=light" alt="TypeScript, JavaScript, HTML, CSS, C++, Java" />
       </picture>
     </td>
     <td align="center" width="50%">
       <sub><b>FRONT-END</b></sub><br/><br/>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,vite,tailwind,bootstrap,threejs&theme=dark" />
-        <img src="https://skillicons.dev/icons?i=react,vite,tailwind,bootstrap,threejs&theme=light" alt="React, Vite, Tailwind CSS, Bootstrap, Three.js" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react%2Cvite%2Ctailwind%2Cbootstrap%2Cthreejs&theme=dark" />
+        <img src="https://skillicons.dev/icons?i=react%2Cvite%2Ctailwind%2Cbootstrap%2Cthreejs&theme=light" alt="React, Vite, Tailwind CSS, Bootstrap, Three.js" />
       </picture>
     </td>
   </tr>
@@ -130,15 +130,15 @@
     <td align="center" width="50%">
       <sub><b>BACK-END &amp; DATA</b></sub><br/><br/>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,express,postgres,sqlite,supabase&theme=dark" />
-        <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,sqlite,supabase&theme=light" alt="Node.js, Express, PostgreSQL, SQLite, Supabase" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs%2Cexpress%2Cpostgres%2Csqlite%2Csupabase&theme=dark" />
+        <img src="https://skillicons.dev/icons?i=nodejs%2Cexpress%2Cpostgres%2Csqlite%2Csupabase&theme=light" alt="Node.js, Express, PostgreSQL, SQLite, Supabase" />
       </picture>
     </td>
     <td align="center" width="50%">
       <sub><b>TOOLS &amp; DEPLOY</b></sub><br/><br/>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,github,githubactions,docker,vercel&theme=dark" />
-        <img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,vercel&theme=light" alt="Git, GitHub, GitHub Actions, Docker, Vercel" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git%2Cgithub%2Cgithubactions%2Cdocker%2Cvercel&theme=dark" />
+        <img src="https://skillicons.dev/icons?i=git%2Cgithub%2Cgithubactions%2Cdocker%2Cvercel&theme=light" alt="Git, GitHub, GitHub Actions, Docker, Vercel" />
       </picture>
     </td>
   </tr>
