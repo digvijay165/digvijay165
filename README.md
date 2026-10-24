@@ -8,22 +8,10 @@
 </a>
 
 <p align="center">
-  <a href="https://digvijay165.github.io/portfolio/"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/buttons/portfolio-dark.svg" />
-    <img src="./assets/buttons/portfolio-light.svg" alt="Portfolio" height="44" />
-  </picture></a>
-  <a href="mailto:digvijaysingh5360@gmail.com"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/buttons/email-dark.svg" />
-    <img src="./assets/buttons/email-light.svg" alt="Email" height="44" />
-  </picture></a>
-  <a href="https://www.linkedin.com/in/digvijay-singh-a188b1382/"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/buttons/linkedin-dark.svg" />
-    <img src="./assets/buttons/linkedin-light.svg" alt="LinkedIn" height="44" />
-  </picture></a>
-  <a href="https://github.com/digvijay165/LeetCode"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/buttons/leetcode-dark.svg" />
-    <img src="./assets/buttons/leetcode-light.svg" alt="LeetCode" height="44" />
-  </picture></a>
+  <a href="https://digvijay165.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/buttons/portfolio-dark.svg" /><img src="./assets/buttons/portfolio-light.svg" alt="Portfolio" height="44" /></picture></a>
+  <a href="mailto:digvijaysingh5360@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/buttons/email-dark.svg" /><img src="./assets/buttons/email-light.svg" alt="Email" height="44" /></picture></a>
+  <a href="https://www.linkedin.com/in/digvijay-singh-a188b1382/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/buttons/linkedin-dark.svg" /><img src="./assets/buttons/linkedin-light.svg" alt="LinkedIn" height="44" /></picture></a>
+  <a href="https://github.com/digvijay165/LeetCode"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/buttons/leetcode-dark.svg" /><img src="./assets/buttons/leetcode-light.svg" alt="LeetCode" height="44" /></picture></a>
 </p>
 
 <table>
