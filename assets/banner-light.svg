@@ -53,4 +53,34 @@
       <text x="20" y="156" fill="#64748b">}</text>
     </g>
   </g>
+  <g transform="translate(742 50)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4.2s" repeatCount="indefinite"/>
+    <rect x="-32.0" y="-14" width="64" height="28" rx="14" fill="#ffffff" stroke="#0284c7" stroke-opacity="0.55"/>
+    <circle cx="-19.0" cy="0" r="3" fill="#0284c7"/>
+    <text x="-10.0" y="4.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#334155">React</text>
+  </g></g>
+  <g transform="translate(1010 44)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5.1s" repeatCount="indefinite"/>
+    <rect x="-51.0" y="-14" width="102" height="28" rx="14" fill="#ffffff" stroke="#7c3aed" stroke-opacity="0.55"/>
+    <circle cx="-38.0" cy="0" r="3" fill="#7c3aed"/>
+    <text x="-29.0" y="4.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#334155">TypeScript</text>
+  </g></g>
+  <g transform="translate(1080 268)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4.6s" repeatCount="indefinite"/>
+    <rect x="-39.5" y="-14" width="79" height="28" rx="14" fill="#ffffff" stroke="#0284c7" stroke-opacity="0.55"/>
+    <circle cx="-26.5" cy="0" r="3" fill="#0284c7"/>
+    <text x="-17.5" y="4.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#334155">Node.js</text>
+  </g></g>
+  <g transform="translate(712 266)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5.6s" repeatCount="indefinite"/>
+    <rect x="-43.5" y="-14" width="87" height="28" rx="14" fill="#ffffff" stroke="#7c3aed" stroke-opacity="0.55"/>
+    <circle cx="-30.5" cy="0" r="3" fill="#7c3aed"/>
+    <text x="-21.5" y="4.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#334155">Three.js</text>
+  </g></g>
+  <g transform="translate(900 286)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4.9s" repeatCount="indefinite"/>
+    <rect x="-51.0" y="-14" width="102" height="28" rx="14" fill="#ffffff" stroke="#0284c7" stroke-opacity="0.55"/>
+    <circle cx="-38.0" cy="0" r="3" fill="#0284c7"/>
+    <text x="-29.0" y="4.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#334155">PostgreSQL</text>
+  </g></g>
 </svg>

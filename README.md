@@ -1,17 +1,15 @@
 <!-- Banner (follows the visitor's light / dark GitHub theme) -->
-<a href="https://digvijay165.github.io/portfolio/">
-  <picture>
+<picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg" />
     <img src="./assets/banner-light.svg" alt="Digvijay Singh: student and front-end developer from Kota, India" width="100%" />
   </picture>
-</a>
 
 <p align="center">
-  <a href="https://digvijay165.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-0ea5e9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="mailto:digvijaysingh5360@gmail.com"><img src="https://img.shields.io/badge/Email-4f46e5?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-    <a href="https://www.linkedin.com/in/digvijay-singh-a188b1382/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2EyLjA2MiAyLjA2MiAwIDEgMSAwLTQuMTI1IDIuMDYyIDIuMDYyIDAgMCAxIDAgNC4xMjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" /></a>
-  <a href="https://github.com/digvijay165/LeetCode"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode solutions" /></a>
+  <a href="https://digvijay165.github.io/portfolio/"><img src="./assets/buttons/portfolio.svg" alt="Portfolio" height="44" /></a>
+  <a href="mailto:digvijaysingh5360@gmail.com"><img src="./assets/buttons/email.svg" alt="Email" height="44" /></a>
+  <a href="https://www.linkedin.com/in/digvijay-singh-a188b1382/"><img src="./assets/buttons/linkedin.svg" alt="LinkedIn" height="44" /></a>
+  <a href="https://github.com/digvijay165/LeetCode"><img src="./assets/buttons/leetcode.svg" alt="LeetCode" height="44" /></a>
 </p>
 
 <table>
@@ -41,14 +39,14 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://himvoya-travel-planner.onrender.com/"><img src="./assets/projects/himvoya.jpg" alt="Himvoya home page" width="100%" /></a>
+      <a href="https://himvoya-travel-planner.onrender.com/"><img src="./assets/projects/himvoya.webp" alt="Himvoya home page" width="100%" /></a>
       <h3>🏔️ Himvoya</h3>
       <p>India-first travel planner: 106 destination guides including 30 Himalayan treks, maps, live weather, accounts and a day-by-day trip planner.</p>
       <p><code>React</code> <code>TypeScript</code> <code>Tailwind</code> <code>Express</code> <code>SQLite</code></p>
       <a href="https://himvoya-travel-planner.onrender.com/"><b>Live site ↗</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/himvoya-travel-planner">Code</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://shelfspace-u4i2.onrender.com"><img src="./assets/projects/shelfspace.jpg" alt="A page turning in the Shelfspace 3D reader" width="100%" /></a>
+      <a href="https://shelfspace-u4i2.onrender.com"><img src="./assets/projects/shelfspace.webp" alt="A page turning in the Shelfspace 3D reader" width="100%" /></a>
       <h3>📚 Shelfspace</h3>
       <p>A cozy book library with a 3D page-turning reader, soft paper sounds and an admin-approved community shelf. No framework, no build step.</p>
       <p><code>JavaScript</code> <code>Node.js</code> <code>PostgreSQL</code></p>
@@ -57,14 +55,14 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://little-lantern-cafe.onrender.com"><img src="./assets/projects/little-lantern-cafe.jpg" alt="Little Lantern Café home page" width="100%" /></a>
+      <a href="https://little-lantern-cafe.onrender.com"><img src="./assets/projects/little-lantern-cafe.webp" alt="Little Lantern Café home page" width="100%" /></a>
       <h3>☕ Little Lantern Café</h3>
       <p>Café website with menu, opening hours, map and order-ahead pickup slots, plus a live staff dashboard for orders and sales.</p>
       <p><code>React</code> <code>Bootstrap</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Docker</code></p>
       <a href="https://little-lantern-cafe.onrender.com"><b>Live site ↗</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/cafe-website">Code</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://digvijay165.github.io/billing/"><img src="./assets/projects/forgeflow.jpg" alt="ForgeFlow billing dashboard" width="100%" /></a>
+      <a href="https://digvijay165.github.io/billing/"><img src="./assets/projects/forgeflow.webp" alt="ForgeFlow billing dashboard" width="100%" /></a>
       <h3>🧾 ForgeFlow</h3>
       <p>GST billing, stock, purchases and reports for machine-parts workshops. Type a part number, press Enter, and MRP and GST fill in.</p>
       <p><code>JavaScript</code> <code>IndexedDB</code> <code>Supabase</code></p>
@@ -73,14 +71,14 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://online-bookstore-and-reader-platform.onrender.com"><img src="./assets/projects/bookstore.jpg" alt="Online Bookstore home page" width="100%" /></a>
+      <a href="https://online-bookstore-and-reader-platform.onrender.com"><img src="./assets/projects/bookstore.webp" alt="Online Bookstore home page" width="100%" /></a>
       <h3>📖 Online Bookstore &amp; Reader</h3>
       <p>A bookstore with 541 titles, 246 free classics in an online reader, community publishing with editor review, and two-step verification.</p>
       <p><code>JavaScript</code> <code>Node.js</code> <code>Express</code> <code>SQLite</code></p>
       <a href="https://online-bookstore-and-reader-platform.onrender.com"><b>Live site ↗</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/Online-bookstore-and-reader-platform">Code</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://terra-trust.onrender.com"><img src="./assets/projects/terra-trust.jpg" alt="Terra Trust home page" width="100%" /></a>
+      <a href="https://terra-trust.onrender.com"><img src="./assets/projects/terra-trust.webp" alt="Terra Trust home page" width="100%" /></a>
       <h3>🏛️ Terra Trust</h3>
       <p>Smart India Hackathon 2026 prototype: AI-verified land records with khasra search, a GIS map pin, an application tracker and EN / हिंदी.</p>
       <p><code>React</code> <code>JavaScript</code></p>
@@ -149,19 +147,22 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=digvijay165&show_icons=true&hide_border=true&rank_icon=github&theme=github_dark&bg_color=0d1117" />
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=digvijay165&show_icons=true&hide_border=true&rank_icon=github&bg_color=ffffff" alt="Digvijay's GitHub stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=digvijay165&show_icons=true&hide_border=true&rank_icon=github&border_radius=16&bg_color=135%2C0b1020%2C131c3a&title_color=38bdf8&icon_color=a78bfa&text_color=cbd5e1&ring_color=38bdf8" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=digvijay165&show_icons=true&hide_border=true&rank_icon=github&border_radius=16&bg_color=135%2Cf8fafc%2Ceef2ff&title_color=4f46e5&icon_color=0284c7&text_color=334155&ring_color=4f46e5" alt="Digvijay's GitHub stats" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=digvijay165&hide_border=true&theme=github-dark-blue&background=0d1117" />
-    <img height="170" src="https://streak-stats.demolab.com?user=digvijay165&hide_border=true&background=ffffff" alt="Digvijay's contribution streak" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=digvijay165&hide_border=true&border_radius=16&background=135%2C0b1020%2C131c3a&ring=38bdf8&fire=a78bfa&currStreakNum=f8fafc&sideNums=f8fafc&currStreakLabel=38bdf8&sideLabels=cbd5e1&dates=94a3b8&stroke=334155" />
+    <img height="170" src="https://streak-stats.demolab.com?user=digvijay165&hide_border=true&border_radius=16&background=135%2Cf8fafc%2Ceef2ff&ring=4f46e5&fire=0284c7&currStreakNum=0f172a&sideNums=0f172a&currStreakLabel=4f46e5&sideLabels=334155&dates=64748b&stroke=cbd5e1" alt="Digvijay's contribution streak" />
   </picture>
 </p>
 
----
+<br/>
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
+    <img src="./assets/footer-light.svg" alt="Let's build something together. Email digvijaysingh5360@gmail.com" width="100%" />
+  </picture>
 
 <p align="center">
-  Thanks for stopping by! Try one of the live demos above, or <a href="mailto:digvijaysingh5360@gmail.com">send me an email</a> about internships and collaborations.
-  <br/><br/>
   <img src="https://komarev.com/ghpvc/?username=digvijay165&style=flat-square&color=4f46e5&label=Profile+views" alt="Profile views" />
 </p>
