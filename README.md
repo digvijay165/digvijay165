@@ -10,6 +10,7 @@
   <a href="mailto:digvijaysingh5360@gmail.com"><img src="./assets/buttons/email.svg" alt="Email" height="44" /></a>
   <a href="https://www.linkedin.com/in/digvijay-singh-a188b1382/"><img src="./assets/buttons/linkedin.svg" alt="LinkedIn" height="44" /></a>
   <a href="https://leetcode.com/u/DIGVIJAY5360/"><img src="./assets/buttons/leetcode.svg" alt="LeetCode" height="44" /></a>
+  <a href="https://www.instagram.com/digvijay.singh_"><img src="./assets/buttons/instagram.svg" alt="Instagram" height="44" /></a>
 </p>
 
 <table>
@@ -62,11 +63,11 @@
       <a href="https://little-lantern-cafe.onrender.com"><b>Live site ↗</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/cafe-website">Code</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://digvijay165.github.io/billing/"><img src="./assets/projects/forgeflow.webp" alt="ForgeFlow billing dashboard" width="100%" /></a>
+      <a href="https://digvijay165.github.io/ForgeFlow-Workshop-Billing/"><img src="./assets/projects/forgeflow.webp" alt="ForgeFlow billing dashboard" width="100%" /></a>
       <h3>🧾 ForgeFlow</h3>
       <p>GST billing, stock, purchases and reports for machine-parts workshops. Type a part number, press Enter, and MRP and GST fill in.</p>
       <p><code>JavaScript</code> <code>IndexedDB</code> <code>Supabase</code></p>
-      <a href="https://digvijay165.github.io/billing/"><b>Live app ↗</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/billing">Code</a>
+      <a href="https://digvijay165.github.io/ForgeFlow-Workshop-Billing/"><b>Live app ↗</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/ForgeFlow-Workshop-Billing">Code</a>
     </td>
   </tr>
   <tr>
@@ -82,7 +83,7 @@
       <h3>🏛️ Terra Trust</h3>
       <p>Smart India Hackathon 2026 prototype: AI-verified land records with khasra search, a GIS map pin, an application tracker and EN / हिंदी.</p>
       <p><code>React</code> <code>JavaScript</code></p>
-      <a href="https://terra-trust.onrender.com"><b>Live demo ↗</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/terra-trust">Code</a>
+      <a href="https://terra-trust.onrender.com"><b>Live demo ↗</b></a> &nbsp;·&nbsp; <a href="https://digvijay165.github.io/portfolio/project.html?p=terra-trust">Case study</a>
     </td>
   </tr>
 </table>
@@ -93,11 +94,10 @@
 
 | Project | What it is | Links |
 | --- | --- | --- |
-| 🌌 **3D Portfolio** | Interactive portfolio with Three.js, GLSL shaders and page transitions | [Live](https://digvijay165.github.io/portfolio/) · [Code](https://github.com/digvijay165/portfolio) |
+| ✨ **Portfolio** | Multi-page glass portfolio with view transitions, a command menu and live GitHub / LeetCode stats | [Live](https://digvijay165.github.io/portfolio/) · [Code](https://github.com/digvijay165/portfolio) |
 | 🛍️ **Mosaic Market** | React storefront with search, filters, favourites and a cart | [Live](https://mosaic-market-alpha.vercel.app/) · [Code](https://github.com/digvijay165/mosaic-market) |
 | 🎧 **Pulse Player** | Browser music player with search, queue and favourites | [Live](https://pulse-player-0rdw.onrender.com/) · [Code](https://github.com/digvijay165/pulse-player) |
 | 👗 **Rewear** | Wardrobe stylist that builds outfits from clothes you already own | [Live](https://digvijay165.github.io/rewear-wardrobe-stylist/) · [Code](https://github.com/digvijay165/rewear-wardrobe-stylist) |
-| 🧾 **ForgeFlow Classic** | The original billing app with a built-in 65,000-part price list | [Live](https://digvijay165.github.io/machine-shop-billing/) · [Code](https://github.com/digvijay165/machine-shop-billing) |
 | 🧮 **Calcu** | Scientific calculator with history, memory and light / dark themes | [Live](https://calculator-7rgb.onrender.com) · [Code](https://github.com/digvijay165/calculator) |
 | 🧠 **LeetCode** | My DSA solutions, synced automatically from LeetCode | [Profile](https://leetcode.com/u/DIGVIJAY5360/) · [Code](https://github.com/digvijay165/LeetCode) |
 
@@ -154,6 +154,15 @@
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=digvijay165&hide_border=true&border_radius=16&background=135%2C0b1020%2C131c3a&ring=38bdf8&fire=a78bfa&currStreakNum=f8fafc&sideNums=f8fafc&currStreakLabel=38bdf8&sideLabels=cbd5e1&dates=94a3b8&stroke=334155" />
     <img height="170" src="https://streak-stats.demolab.com?user=digvijay165&hide_border=true&border_radius=16&background=135%2Cf8fafc%2Ceef2ff&ring=4f46e5&fire=0284c7&currStreakNum=0f172a&sideNums=0f172a&currStreakLabel=4f46e5&sideLabels=334155&dates=64748b&stroke=cbd5e1" alt="Digvijay's contribution streak" />
   </picture>
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/DIGVIJAY5360/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/DIGVIJAY5360?theme=dark&font=Inter&border=0&radius=16" />
+      <img height="170" src="https://leetcard.jacoblin.cool/DIGVIJAY5360?theme=light&font=Inter&border=0&radius=16" alt="Digvijay's LeetCode stats" />
+    </picture>
+  </a>
 </p>
 
 <br/>
