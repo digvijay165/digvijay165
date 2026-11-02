@@ -38,7 +38,7 @@
 </p>
 
 <p align="center">
-  <sub>Each card opens the live app. Source code:
+  <sub>Click a card to open it. Source code:
   <a href="https://github.com/digvijay165/himvoya-travel-planner">Himvoya</a> ·
   <a href="https://github.com/digvijay165/Shelfspace">Shelfspace</a> ·
   <a href="https://github.com/digvijay165/java-projects">mini-redis</a> ·
