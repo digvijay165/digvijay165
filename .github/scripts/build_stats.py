@@ -14,15 +14,17 @@ import urllib.request
 
 # ---- Edit these -----------------------------------------------------------
 USER = "digvijay165"
+LEETCODE_USER = "DIGVIJAY5360"
 TOP_LANGUAGES = 6          # rows in the languages panel; the rest fold into "Other"
 RECENT_REPOS = 4           # rows in the "Recently pushed" list
 EXCLUDE = {"digvijay165", "priv"}                        # repos never listed
 SKIP_LANGUAGES = {"Batchfile", "Dockerfile", "PLpgSQL"}  # build/config files, not code I write
 # ---------------------------------------------------------------------------
 
+# Colours match the other tiles drawn by build_design.py.
 THEMES = {
     "dark": {
-        "bg": ("#0b1020", "#131c3a"),
+        "bg": ("#0f172a", "#0b1120"),
         "glow": "#6366f1",
         "dots": "#ffffff",
         "border": "#1e293b",
@@ -35,11 +37,11 @@ THEMES = {
         "rule": "#1e293b",
     },
     "light": {
-        "bg": ("#f8fafc", "#eef2ff"),
+        "bg": ("#ffffff", "#f8fafc"),
         "glow": "#818cf8",
         "dots": "#0f172a",
         "border": "#e2e8f0",
-        "tile": "#ffffff", "tile_opacity": "0.75",
+        "tile": "#f1f5f9", "tile_opacity": "0.8",
         "primary": "#0f172a",
         "secondary": "#334155",
         "muted": "#64748b",
@@ -91,6 +93,37 @@ def load():
       }""", login=USER)["user"]
 
 
+def leetcode():
+    """Solved counts by difficulty, e.g. {"All": 57, "Easy": 14, ...}.
+
+    LeetCode sometimes blocks CI runners, so fall back to the counts the last
+    successful run saved on the output branch. None if neither is available.
+    """
+    try:
+        request = urllib.request.Request(
+            "https://leetcode.com/graphql",
+            data=json.dumps({
+                "query": "query($u: String!) { matchedUser(username: $u) "
+                         "{ submitStats { acSubmissionNum { difficulty count } } } }",
+                "variables": {"u": LEETCODE_USER},
+            }).encode(),
+            headers={"Content-Type": "application/json", "Referer": "https://leetcode.com",
+                     "User-Agent": "Mozilla/5.0"},
+        )
+        with urllib.request.urlopen(request, timeout=30) as response:
+            solved = json.load(response)["data"]["matchedUser"]["submitStats"]["acSubmissionNum"]
+        return {row["difficulty"]: row["count"] for row in solved}
+    except Exception as error:
+        print("LeetCode unavailable, using the last saved counts:", error)
+    try:
+        url = f"https://raw.githubusercontent.com/{USER}/{USER}/output/leetcode.json"
+        with urllib.request.urlopen(url, timeout=30) as response:
+            return json.load(response)
+    except Exception as error:
+        print("No saved LeetCode counts either:", error)
+        return None
+
+
 def top_languages(repos):
     sizes = {}
     for repo in repos:
@@ -123,7 +156,7 @@ def esc(text):
     return str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def card(theme, data, now):
+def card(theme, data, solved, now):
     t = THEMES[theme]
     repos = data["repositories"]
     langs = top_languages(repos["nodes"])
@@ -131,12 +164,19 @@ def card(theme, data, now):
     contributions = data["contributionsCollection"]["contributionCalendar"]["totalContributions"]
     commits = data["contributionsCollection"]["totalCommitContributions"]
     merged = data["pullRequests"]["totalCount"]
+    if solved:
+        last_tile = (f"{solved['All']:,}", "LeetCode solved",
+                     f"{solved['Easy']}E · {solved['Medium']}M · {solved['Hard']}H")
+        last_label = f"{solved['All']} LeetCode problems solved"
+    else:
+        last_tile = (f"{repos['totalCount']:,}", "repositories", "public")
+        last_label = f"{repos['totalCount']} public repositories"
 
     out = []
     add = out.append
     add(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" width="1200" height="410" '
         f'role="img" aria-label="GitHub activity for {USER}: {contributions} contributions and {commits} commits '
-        f'in the last year, {merged} pull requests merged, {repos["totalCount"]} public repositories. '
+        f'in the last year, {merged} pull requests merged, {last_label}. '
         f'Top languages: {esc(", ".join(f"{n} {p:.0%}" for n, p in langs))}.">')
     add(f'''  <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -148,14 +188,14 @@ def card(theme, data, now):
     <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1.2" fill="{t["dots"]}" fill-opacity="0.05"/>
     </pattern>
-    <clipPath id="card"><rect width="1200" height="410" rx="24"/></clipPath>
+    <clipPath id="card"><rect width="1200" height="410" rx="28"/></clipPath>
   </defs>
   <g clip-path="url(#card)">
     <rect width="1200" height="410" fill="url(#bg)"/>
     <rect width="1200" height="410" fill="url(#dots)"/>
     <circle cx="1080" cy="0" r="320" fill="url(#glow)"/>
   </g>
-  <rect x="0.5" y="0.5" width="1199" height="409" rx="24" fill="none" stroke="{t["border"]}"/>''')
+  <rect x="0.5" y="0.5" width="1199" height="409" rx="28" fill="none" stroke="{t["border"]}"/>''')
 
     add(f'  <text x="56" y="62" font-family="{MONO}" font-size="16" fill="{t["accent"]}">~/{USER} '
         f'<tspan fill="{t["muted"]}">$ git log --stat</tspan></text>')
@@ -167,7 +207,7 @@ def card(theme, data, now):
         (f"{contributions:,}", "contributions", "in the last year"),
         (f"{commits:,}", "commits", "in the last year"),
         (f"{merged:,}", "pull requests", "merged"),
-        (f"{repos['totalCount']:,}", "repositories", "public"),
+        last_tile,
     ]
     tile_w, gap, x0 = 162, 12, 56
     for i, (value, label, detail) in enumerate(tiles):
@@ -223,12 +263,16 @@ def main():
     folder = sys.argv[1] if len(sys.argv) > 1 else "dist"
     os.makedirs(folder, exist_ok=True)
     data = load()
+    solved = leetcode()
     now = datetime.datetime.now(datetime.timezone.utc)
     for theme in THEMES:
         path = os.path.join(folder, f"activity-{theme}.svg")
         with open(path, "w", encoding="utf-8", newline="\n") as f:
-            f.write(card(theme, data, now))
+            f.write(card(theme, data, solved, now))
         print("wrote", path)
+    if solved:
+        with open(os.path.join(folder, "leetcode.json"), "w", encoding="utf-8") as f:
+            json.dump(solved, f)
 
 
 if __name__ == "__main__":
