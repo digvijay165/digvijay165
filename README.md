@@ -90,6 +90,32 @@
 </details>
 
 <!-- PROJECTS:START -->
+## 🆕 Latest projects
+
+<p align="center"><sub>Updated automatically whenever I publish a new repository. Newest first.</sub></p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📁 <a href="https://github.com/digvijay165/digvijayy">Digvijayy</a></h3>
+      <p>Fast GST billing for machine-parts workshops — Cloudflare Pages + D1, Supabase Auth, works offline</p>
+      <p>
+        <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111" alt="JavaScript" />
+      </p>
+      <p><sub>🗓️ Nov 2026</sub></p>
+      <a href="https://digvijayy.pages.dev"><b>Live demo →</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/digvijayy"><b>Source →</b></a>
+    </td>
+    <td width="50%"></td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/digvijay165?tab=repositories"><b>📂 Browse all repositories →</b></a>
+</p>
+
+---
+
 <!-- PROJECTS:END -->
 
 <br/>
