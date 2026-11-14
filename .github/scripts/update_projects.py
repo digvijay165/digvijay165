@@ -139,10 +139,10 @@ def card(repo):
     if live:
         links.append(f'<a href="{esc(live)}"><b>Live demo →</b></a>')
     links.append(f'<a href="{source}"><b>Source →</b></a>')
-    meta = f"🗓️ {created}" + (f" &nbsp;·&nbsp; ⭐ {stars}" if stars else "")
+    meta = f"Created {created}" + (f" &nbsp;·&nbsp; ★ {stars}" if stars else "")
 
     return f"""    <td width="50%" valign="top">
-      <h3>📁 <a href="{source}">{esc(title)}</a></h3>
+      <h3><a href="{source}">{esc(title)}</a></h3>
       <p>{description}</p>
       <p>
         {chr(10).join("        " + badge(l) for l in languages(repo)).strip()}
@@ -162,16 +162,16 @@ def section(repos):
             cells.append('    <td width="50%"></td>')
         rows.append("  <tr>\n" + "\n".join(cells) + "\n  </tr>")
     return f"""{START}
-## 🆕 Latest projects
+### Latest projects
 
-<p align="center"><sub>Updated automatically whenever I publish a new repository. Newest first.</sub></p>
+<p><sub>Updated automatically whenever I publish a new repository. Newest first.</sub></p>
 
 <table>
 {chr(10).join(rows)}
 </table>
 
 <p align="center">
-  <a href="https://github.com/{USER}?tab=repositories"><b>📂 Browse all repositories →</b></a>
+  <a href="https://github.com/{USER}?tab=repositories"><b>Browse all repositories →</b></a>
 </p>
 
 ---

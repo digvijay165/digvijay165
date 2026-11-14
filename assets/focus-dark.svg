@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 252" width="1200" height="252" role="img" aria-label="What I do. Product engineering: Complete web apps, shipped and live: React front ends, Node and Express APIs, PostgreSQL. Systems from scratch: A Redis-compatible server in plain Java: one NIO event loop, RESP pipelining, crash-safe persistence. Problem solving: Data structures and algorithms in C++ and Java, and a Smart India Hackathon 2026 prototype.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.08"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+    <radialGradient id="fade" cx="0.75" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="gridmask"><rect width="1200" height="252" fill="url(#fade)"/></mask>
+    <clipPath id="card"><rect width="1200" height="252" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="252" fill="url(#bg)"/>
+    <rect x="20" y="0" width="1160" height="1" fill="url(#edge)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="251" rx="19.5" fill="none" stroke="#30363d"/>
+  <rect x="40" y="40" width="44" height="44" rx="11" fill="#a5b4fc" fill-opacity="0.1" stroke="#a5b4fc" stroke-opacity="0.35"/>
+  <svg x="51" y="51" width="22" height="22" viewBox="0 0 24 24"><g fill="none" stroke="#a5b4fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13l9 5 9-5"/></g></svg>
+  <text x="40" y="124" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#f0f6fc" letter-spacing="-0.3">Product engineering</text>
+  <text x="40" y="158" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#8b949e">Complete web apps, shipped and live:</text>
+  <text x="40" y="184" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#8b949e">React front ends, Node and Express</text>
+  <text x="40" y="210" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#8b949e">APIs, PostgreSQL.</text>
+  <rect x="410" y="40" width="1" height="172" fill="#30363d"/>
+  <rect x="420" y="40" width="44" height="44" rx="11" fill="#a5b4fc" fill-opacity="0.1" stroke="#a5b4fc" stroke-opacity="0.35"/>
+  <svg x="431" y="51" width="22" height="22" viewBox="0 0 24 24"><g fill="none" stroke="#a5b4fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></g></svg>
+  <text x="420" y="124" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#f0f6fc" letter-spacing="-0.3">Systems from scratch</text>
+  <text x="420" y="158" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#8b949e">A Redis-compatible server in plain</text>
+  <text x="420" y="184" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#8b949e">Java: one NIO event loop, RESP</text>
+  <text x="420" y="210" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#8b949e">pipelining, crash-safe persistence.</text>
+  <rect x="790" y="40" width="1" height="172" fill="#30363d"/>
+  <rect x="800" y="40" width="44" height="44" rx="11" fill="#a5b4fc" fill-opacity="0.1" stroke="#a5b4fc" stroke-opacity="0.35"/>
+  <svg x="811" y="51" width="22" height="22" viewBox="0 0 24 24"><g fill="none" stroke="#a5b4fc" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2" fill="#a5b4fc"/></g></svg>
+  <text x="800" y="124" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#f0f6fc" letter-spacing="-0.3">Problem solving</text>
+  <text x="800" y="158" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#8b949e">Data structures and algorithms in</text>
+  <text x="800" y="184" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#8b949e">C++ and Java, and a Smart India</text>
+  <text x="800" y="210" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#8b949e">Hackathon 2026 prototype.</text>
+</svg>

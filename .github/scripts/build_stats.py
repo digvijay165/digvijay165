@@ -24,34 +24,34 @@ SKIP_LANGUAGES = {"Batchfile", "Dockerfile", "PLpgSQL"}  # build/config files, n
 # Colours match the other tiles drawn by build_design.py.
 THEMES = {
     "dark": {
-        "bg": ("#0f172a", "#0b1120"),
+        "bg": ("#161b22", "#0d1117"),
         "glow": "#6366f1",
         "dots": "#ffffff",
-        "border": "#1e293b",
-        "tile": "#ffffff", "tile_opacity": "0.04",
-        "primary": "#f8fafc",
-        "secondary": "#cbd5e1",
-        "muted": "#94a3b8",
-        "accent": "#38bdf8",
-        "track": "#1e293b",
-        "rule": "#1e293b",
+        "border": "#30363d",
+        "tile": "#21262d", "tile_opacity": "0.6",
+        "primary": "#f0f6fc",
+        "secondary": "#c9d1d9",
+        "muted": "#8b949e",
+        "accent": "#a5b4fc",
+        "track": "#21262d",
+        "rule": "#21262d",
     },
     "light": {
-        "bg": ("#ffffff", "#f8fafc"),
+        "bg": ("#ffffff", "#f6f8fa"),
         "glow": "#818cf8",
-        "dots": "#0f172a",
-        "border": "#e2e8f0",
-        "tile": "#f1f5f9", "tile_opacity": "0.8",
-        "primary": "#0f172a",
-        "secondary": "#334155",
-        "muted": "#64748b",
+        "dots": "#1f2328",
+        "border": "#d0d7de",
+        "tile": "#f6f8fa", "tile_opacity": "1",
+        "primary": "#1f2328",
+        "secondary": "#424a53",
+        "muted": "#656d76",
         "accent": "#4f46e5",
-        "track": "#e0e7ff",
-        "rule": "#e2e8f0",
+        "track": "#eaeef2",
+        "rule": "#eaeef2",
     },
 }
 
-SANS = "'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+SANS = "'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif"
 MONO = "ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace"
 
 
@@ -183,19 +183,15 @@ def card(theme, data, solved, now):
       <stop offset="0" stop-color="{t["bg"][0]}"/><stop offset="1" stop-color="{t["bg"][1]}"/>
     </linearGradient>
     <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="{t["glow"]}" stop-opacity="0.22"/><stop offset="1" stop-color="{t["glow"]}" stop-opacity="0"/>
+      <stop offset="0" stop-color="{t["glow"]}" stop-opacity="0.16"/><stop offset="1" stop-color="{t["glow"]}" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.2" fill="{t["dots"]}" fill-opacity="0.05"/>
-    </pattern>
-    <clipPath id="card"><rect width="1200" height="410" rx="28"/></clipPath>
+    <clipPath id="card"><rect width="1200" height="410" rx="20"/></clipPath>
   </defs>
   <g clip-path="url(#card)">
     <rect width="1200" height="410" fill="url(#bg)"/>
-    <rect width="1200" height="410" fill="url(#dots)"/>
     <circle cx="1080" cy="0" r="320" fill="url(#glow)"/>
   </g>
-  <rect x="0.5" y="0.5" width="1199" height="409" rx="28" fill="none" stroke="{t["border"]}"/>''')
+  <rect x="0.5" y="0.5" width="1199" height="409" rx="19.5" fill="none" stroke="{t["border"]}"/>''')
 
     add(f'  <text x="56" y="62" font-family="{MONO}" font-size="16" fill="{t["accent"]}">~/{USER} '
         f'<tspan fill="{t["muted"]}">$ git log --stat</tspan></text>')
@@ -212,7 +208,7 @@ def card(theme, data, solved, now):
     tile_w, gap, x0 = 162, 12, 56
     for i, (value, label, detail) in enumerate(tiles):
         x = x0 + i * (tile_w + gap)
-        add(f'  <rect x="{x}" y="88" width="{tile_w}" height="100" rx="14" fill="{t["tile"]}" '
+        add(f'  <rect x="{x}" y="88" width="{tile_w}" height="100" rx="12" fill="{t["tile"]}" '
             f'fill-opacity="{t["tile_opacity"]}" stroke="{t["border"]}"/>')
         add(f'  <text x="{x + 18}" y="130" font-family="{SANS}" font-size="34" font-weight="700" '
             f'fill="{t["primary"]}">{esc(value)}</text>')

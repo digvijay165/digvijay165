@@ -6,7 +6,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
-  <img src="./assets/hero-light.svg" alt="Digvijay Singh. Full-stack developer, CS student, Kota, India. I build fast, friendly web apps, and lately the tools underneath them, starting with Redis in plain Java. Open to internships." width="100%" />
+  <img src="./assets/hero-light.svg" alt="Digvijay Singh. Full-stack developer and CS student in Kota, India. I build fast, friendly web apps end to end, and lately the systems underneath them, in plain Java. 11 live apps. Now building an HTTP server in Java. Open to internships." width="100%" />
 </picture>
 
 <p align="center">
@@ -17,7 +17,12 @@
   <a href="https://www.instagram.com/digvijay.singh_"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/buttons/instagram-dark.svg" /><img src="./assets/buttons/instagram-light.svg" alt="Instagram" height="40" /></picture></a>
 </p>
 
-<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/focus-dark.svg" />
+  <img src="./assets/focus-light.svg" alt="What I do. Product engineering: complete web apps, shipped and live, with React front ends, Node and Express APIs and PostgreSQL. Systems from scratch: a Redis-compatible server in plain Java with one NIO event loop, RESP pipelining and crash-safe persistence. Problem solving: data structures and algorithms in C++ and Java, and a Smart India Hackathon 2026 prototype." width="100%" />
+</picture>
+
+<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/work-dark.svg" />
@@ -51,11 +56,11 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/headers/more-dark.svg" />
-  <img src="./assets/headers/more-light.svg" alt="02. Everything else: web apps, Python, C++ and DSA" width="100%" />
+  <img src="./assets/headers/more-light.svg" alt="02. More projects: web apps, Python, C++ and DSA" width="100%" />
 </picture>
 
 <details>
-  <summary><b>🌐 More web apps</b></summary>
+  <summary><b>Web apps</b> &nbsp;·&nbsp; 6 more live projects</summary>
   <br/>
 
 | Project | What it is | Links |
@@ -70,7 +75,7 @@
 </details>
 
 <details>
-  <summary><b>🐍 Python, C++ &amp; DSA</b></summary>
+  <summary><b>Python, C++ &amp; DSA</b> &nbsp;·&nbsp; 11 repositories</summary>
   <br/>
 
 | Project | What it is | Links |
@@ -90,6 +95,33 @@
 </details>
 
 <!-- PROJECTS:START -->
+### Latest projects
+
+<p><sub>Updated automatically whenever I publish a new repository. Newest first.</sub></p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/digvijay165/resumeiq">Resumeiq</a></h3>
+      <p>ResumeIQ: AI resume analyzer &amp; builder. Explainable score, ATS checks, job matching, skill gaps and career roadmap. Runs in your browser.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" />
+        <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
+      </p>
+      <p><sub>Created Nov 2026</sub></p>
+      <a href="https://resume-analyzer.resumeiq.workers.dev"><b>Live demo →</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/resumeiq"><b>Source →</b></a>
+    </td>
+    <td width="50%"></td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/digvijay165?tab=repositories"><b>Browse all repositories →</b></a>
+</p>
+
+---
+
 <!-- PROJECTS:END -->
 
 <br/>

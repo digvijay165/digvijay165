@@ -1,29 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Let's build something together. Open to internships and collaborations. Email digvijaysingh5360@gmail.com">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#0b1120"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/>
     </linearGradient>
-    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.05"/>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.08"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
     </pattern>
-    <clipPath id="card"><rect width="1200" height="300" rx="28"/></clipPath>
-    <radialGradient id="glow0" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#6366f1" stop-opacity="0.28"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    <radialGradient id="fade" cx="0.75" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/>
     </radialGradient>
-    <radialGradient id="glow1" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#0ea5e9" stop-opacity="0.28"/><stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
+    <mask id="gridmask"><rect width="1200" height="300" fill="url(#fade)"/></mask>
+    <clipPath id="card"><rect width="1200" height="300" rx="20"/></clipPath>
+    <radialGradient id="glow0" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.22"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <g clip-path="url(#card)">
     <rect width="1200" height="300" fill="url(#bg)"/>
-    <rect width="1200" height="300" fill="url(#dots)"/>
-    <circle cx="300" cy="0" r="360" fill="url(#glow0)"/>
-    <circle cx="900" cy="300" r="360" fill="url(#glow1)"/>
+    <rect width="1200" height="300" fill="url(#grid)" mask="url(#gridmask)"/>
+    <circle cx="600" cy="330" r="460" fill="url(#glow0)"/>
+    <rect x="20" y="0" width="1160" height="1" fill="url(#edge)"/>
   </g>
-  <rect x="0.5" y="0.5" width="1199" height="299" rx="28" fill="none" stroke="#1e293b"/>
-  <text x="600" y="110" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="800" fill="#f8fafc" letter-spacing="-1.2">Let's build something together.</text>
-  <text x="600" y="156" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="21" fill="#cbd5e1">Open to internships and collaborations. Say hi:</text>
-  <rect x="412" y="190" width="377" height="54" rx="27" fill="#38bdf8" fill-opacity="0.1" stroke="#38bdf8" stroke-opacity="0.5"/>
-  <svg x="435.53499999999997" y="205" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7l8.5 6 8.5-6"/></g></svg>
-  <text x="470" y="224" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" font-weight="600" fill="#f8fafc">digvijaysingh5360@gmail.com</text>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="19.5" fill="none" stroke="#30363d"/>
+  <text x="600" y="104" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="800" fill="#f0f6fc" letter-spacing="-1.3">Let's build something together.</text>
+  <text x="600" y="148" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#8b949e">Open to internships and collaborations. The fastest way to reach me:</text>
+  <rect x="416" y="184" width="368" height="54" rx="12" fill="#f0f6fc"/>
+  <svg x="440" y="200" width="22" height="22" viewBox="0 0 24 24"><g fill="none" stroke="#0d1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7l8.5 6 8.5-6"/></g></svg>
+  <text x="474" y="217" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="18" font-weight="600" fill="#0d1117">digvijaysingh5360@gmail.com</text>
 </svg>
