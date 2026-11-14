@@ -96,33 +96,6 @@
 </details>
 
 <!-- PROJECTS:START -->
-### Latest projects
-
-<p><sub>Updated automatically whenever I publish a new repository. Newest first.</sub></p>
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/digvijay165/resumeiq">Resumeiq</a></h3>
-      <p>ResumeIQ: AI resume analyzer &amp; builder. Explainable score, ATS checks, job matching, skill gaps and career roadmap. Runs in your browser.</p>
-      <p>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" />
-        <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
-      </p>
-      <p><sub>Created Nov 2026</sub></p>
-      <a href="https://resume-analyzer.resumeiq.workers.dev"><b>Live demo →</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/resumeiq"><b>Source →</b></a>
-    </td>
-    <td width="50%"></td>
-  </tr>
-</table>
-
-<p align="center">
-  <a href="https://github.com/digvijay165?tab=repositories"><b>Browse all repositories →</b></a>
-</p>
-
----
-
 <!-- PROJECTS:END -->
 
 <br/>
