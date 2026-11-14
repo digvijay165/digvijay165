@@ -30,7 +30,7 @@
 </p>
 <p>
   <a href="https://github.com/digvijay165/java-projects/tree/main/mini-redis"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/mini-redis-dark.svg" /><img src="./assets/cards/mini-redis-light.svg" alt="mini-redis: a Redis-compatible server in plain Java with one NIO event loop, RESP pipelining, 39 commands and crash-safe persistence. Java 21, NIO, JUnit, Maven." width="49%" /></picture></a>
-  <a href="https://digvijay165.github.io/ForgeFlow-Workshop-Billing/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/forgeflow-dark.svg" /><img src="./assets/cards/forgeflow-light.svg" alt="ForgeFlow: GST billing, stock, purchases and reports for machine-parts workshops. JavaScript, IndexedDB, Supabase." width="49%" /></picture></a>
+  <a href="https://digvijayy.pages.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/forgeflow-dark.svg" /><img src="./assets/cards/forgeflow-light.svg" alt="ForgeFlow: GST billing, stock and reports for machine-parts workshops that works offline. JavaScript, Cloudflare D1, Supabase Auth." width="49%" /></picture></a>
 </p>
 <p>
   <a href="https://little-lantern-cafe.onrender.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/little-lantern-cafe-dark.svg" /><img src="./assets/cards/little-lantern-cafe-light.svg" alt="Little Lantern Café: café site with menu, map and order-ahead pickup slots, plus a live staff dashboard. React, Node.js, PostgreSQL, Docker." width="49%" /></picture></a>
@@ -42,7 +42,7 @@
   <a href="https://github.com/digvijay165/himvoya-travel-planner">Himvoya</a> ·
   <a href="https://github.com/digvijay165/Shelfspace">Shelfspace</a> ·
   <a href="https://github.com/digvijay165/java-projects">mini-redis</a> ·
-  <a href="https://github.com/digvijay165/ForgeFlow-Workshop-Billing">ForgeFlow</a> ·
+  <a href="https://github.com/digvijay165/digvijayy">ForgeFlow</a> (<a href="https://github.com/digvijay165/ForgeFlow-Workshop-Billing">v1</a>) ·
   <a href="https://github.com/digvijay165/cafe-website">Little Lantern Café</a> ·
   <a href="https://digvijay165.github.io/portfolio/project.html?p=terra-trust">Terra Trust case study</a></sub>
 </p>
@@ -90,32 +90,6 @@
 </details>
 
 <!-- PROJECTS:START -->
-## 🆕 Latest projects
-
-<p align="center"><sub>Updated automatically whenever I publish a new repository. Newest first.</sub></p>
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📁 <a href="https://github.com/digvijay165/digvijayy">Digvijayy</a></h3>
-      <p>Fast GST billing for machine-parts workshops — Cloudflare Pages + D1, Supabase Auth, works offline</p>
-      <p>
-        <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111" alt="JavaScript" />
-      </p>
-      <p><sub>🗓️ Nov 2026</sub></p>
-      <a href="https://digvijayy.pages.dev"><b>Live demo →</b></a> &nbsp;·&nbsp; <a href="https://github.com/digvijay165/digvijayy"><b>Source →</b></a>
-    </td>
-    <td width="50%"></td>
-  </tr>
-</table>
-
-<p align="center">
-  <a href="https://github.com/digvijay165?tab=repositories"><b>📂 Browse all repositories →</b></a>
-</p>
-
----
-
 <!-- PROJECTS:END -->
 
 <br/>
@@ -127,7 +101,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/toolbox-dark.svg" />
-  <img src="./assets/toolbox-light.svg" alt="Languages: TypeScript, JavaScript, Python, Java, C++, SQL. Front-end: React, HTML and CSS, Tailwind, Bootstrap, Three.js, Vite. Back-end: Node.js, Express, Django, Flask, REST APIs. Data: PostgreSQL, SQLite, Supabase, IndexedDB. Tools: Git, GitHub Actions, Docker, Vercel, Render, Maven." width="100%" />
+  <img src="./assets/toolbox-light.svg" alt="Languages: TypeScript, JavaScript, Python, Java, C++, SQL. Front-end: React, HTML and CSS, Tailwind, Bootstrap, Three.js, Vite. Back-end: Node.js, Express, Django, Flask, REST APIs. Data: PostgreSQL, Neon, SQLite, Supabase, Cloudflare D1, IndexedDB. Tools: Git, GitHub Actions, Docker, Vercel, Render, Maven." width="100%" />
 </picture>
 
 <br/><br/>
