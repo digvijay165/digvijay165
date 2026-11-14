@@ -6,7 +6,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
-  <img src="./assets/hero-light.svg" alt="Digvijay Singh. Full-stack developer and CS student in Kota, India. I build fast, friendly web apps end to end, and lately the systems underneath them, in plain Java. 11 live apps. Now building an HTTP server in Java. Open to internships." width="100%" />
+  <img src="./assets/hero-light.svg" alt="Digvijay Singh. Full-stack developer and CS student in Kota, India. I build fast, friendly web apps end to end, and lately the systems underneath them, in plain Java. 12 live apps. Now building an HTTP server in Java. Open to internships." width="100%" />
 </picture>
 
 <p align="center">
@@ -38,7 +38,7 @@
   <a href="https://digvijayy.pages.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/forgeflow-dark.svg" /><img src="./assets/cards/forgeflow-light.svg" alt="ForgeFlow: GST billing, stock and reports for machine-parts workshops that works offline. JavaScript, Cloudflare D1, Supabase Auth." width="49%" /></picture></a>
 </p>
 <p>
-  <a href="https://little-lantern-cafe.onrender.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/little-lantern-cafe-dark.svg" /><img src="./assets/cards/little-lantern-cafe-light.svg" alt="Little Lantern Café: café site with menu, map and order-ahead pickup slots, plus a live staff dashboard. React, Node.js, PostgreSQL, Docker." width="49%" /></picture></a>
+  <a href="https://resume-analyzer.resumeiq.workers.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/resumeiq-dark.svg" /><img src="./assets/cards/resumeiq-light.svg" alt="ResumeIQ: resume analyzer and builder with an explainable score, ATS checks, job matching, skill gaps and a learning roadmap. React, TypeScript, Vite, Cloudflare." width="49%" /></picture></a>
   <a href="https://terra-trust.onrender.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/terra-trust-dark.svg" /><img src="./assets/cards/terra-trust-light.svg" alt="Terra Trust, Smart India Hackathon 2026: AI-verified land records with khasra search, a GIS map pin and an application tracker, in English and Hindi. React, JavaScript." width="49%" /></picture></a>
 </p>
 
@@ -47,8 +47,8 @@
   <a href="https://github.com/digvijay165/himvoya-travel-planner">Himvoya</a> ·
   <a href="https://github.com/digvijay165/Shelfspace">Shelfspace</a> ·
   <a href="https://github.com/digvijay165/java-projects">mini-redis</a> ·
-  <a href="https://github.com/digvijay165/digvijayy">ForgeFlow</a> (<a href="https://github.com/digvijay165/ForgeFlow-Workshop-Billing">v1</a>) ·
-  <a href="https://github.com/digvijay165/cafe-website">Little Lantern Café</a> ·
+  <a href="https://github.com/digvijay165/forgeflow">ForgeFlow</a> (<a href="https://github.com/digvijay165/ForgeFlow-Workshop-Billing">v1</a>) ·
+  <a href="https://github.com/digvijay165/resumeiq">ResumeIQ</a> ·
   <a href="https://digvijay165.github.io/portfolio/project.html?p=terra-trust">Terra Trust case study</a></sub>
 </p>
 
@@ -60,11 +60,12 @@
 </picture>
 
 <details>
-  <summary><b>Web apps</b> &nbsp;·&nbsp; 6 more live projects</summary>
+  <summary><b>Web apps</b> &nbsp;·&nbsp; 7 more live projects</summary>
   <br/>
 
 | Project | What it is | Links |
 | --- | --- | --- |
+| ☕ **Little Lantern Café** | Café site with menu, map and order-ahead pickup slots, plus a live staff dashboard for orders and sales | [Live](https://little-lantern-cafe.onrender.com) · [Code](https://github.com/digvijay165/cafe-website) |
 | 📖 **Online Bookstore &amp; Reader** | 541 titles, 246 free classics in an online reader, community publishing with editor review, and two-step verification | [Live](https://online-bookstore-and-reader-platform.onrender.com) · [Code](https://github.com/digvijay165/Online-bookstore-and-reader-platform) |
 | ✨ **Portfolio** | Multi-page glass portfolio with view transitions, a command menu and live GitHub / LeetCode stats | [Live](https://digvijay165.github.io/portfolio/) · [Code](https://github.com/digvijay165/portfolio) |
 | 🛍️ **Mosaic Market** | React storefront with search, filters, favourites and a cart | [Live](https://mosaic-market-alpha.vercel.app/) · [Code](https://github.com/digvijay165/mosaic-market) |

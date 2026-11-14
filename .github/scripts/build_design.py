@@ -19,7 +19,7 @@ BIO = ["I build fast, friendly web apps end to end, and",
        "lately the systems underneath them, in plain Java."]
 META = [  # icon, text
     ("pin", "Kota, India"),
-    ("rocket", "11 live apps"),
+    ("rocket", "12 live apps"),
     ("terminal", "now: an HTTP server in Java"),
 ]
 STATUS = "Open to internships"
@@ -30,7 +30,7 @@ CODE = [  # the editor in the hero: one list of (text, kind) per line
     [("  role", "key"), (": ", "p"), ('"Full-stack dev"', "str"), (",", "p")],
     [("  based", "key"), (": ", "p"), ('"Kota, India"', "str"), (",", "p")],
     [("  stack", "key"), (": [", "p"), ('"React"', "str"), (", ", "p"), ('"Node"', "str"), (", ", "p"), ('"Java"', "str"), ("],", "p")],
-    [("  liveApps", "key"), (": ", "p"), ("11", "num"), (",", "p")],
+    [("  liveApps", "key"), (": ", "p"), ("12", "num"), (",", "p")],
     [("  building", "key"), (": ", "p"), ('"HTTP server"', "str"), (",", "p")],
     [("  openTo", "key"), (": ", "p"), ('"internships"', "str"), (",", "p")],
     [("};", "p")],
@@ -73,9 +73,9 @@ PROJECTS = [  # slug, image, label, title, description, tags, accent (dark, ligh
     ("forgeflow", "forgeflow.webp", "BUSINESS", "ForgeFlow",
      "GST billing, stock and reports for machine-parts workshops. Type a part number, press Enter, done. Works offline.",
      ["JavaScript", "Cloudflare D1", "Supabase Auth"], ("#a5b4fc", "#4f46e5")),
-    ("little-lantern-cafe", "little-lantern-cafe.webp", "FOOD & ORDERING", "Little Lantern Café",
-     "Café site with menu, map and order-ahead pickup slots, plus a live staff dashboard for orders and sales.",
-     ["React", "Node.js", "PostgreSQL", "Docker"], ("#fda4af", "#e11d48")),
+    ("resumeiq", "resumeiq.webp", "CAREER · AI", "ResumeIQ",
+     "Resume analyzer and builder: explainable score, ATS checks, job matching, skill gaps and a learning roadmap.",
+     ["React", "TypeScript", "Vite", "Cloudflare"], ("#c4b5fd", "#6d28d9")),
     ("terra-trust", "terra-trust.webp", "SMART INDIA HACKATHON 2026", "Terra Trust",
      "AI-verified land records with khasra search, a GIS map pin and an application tracker, in English and Hindi.",
      ["React", "JavaScript"], ("#86efac", "#15803d")),
